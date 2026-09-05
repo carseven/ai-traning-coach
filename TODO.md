@@ -1,0 +1,10 @@
+- [ ] Be able to create a training plan based on the athlete's goal, current fitness, and available time.
+- [ ] Be able to provide feedback on a completed workout, including adjustments for the next session.
+- [ ] Be able to analyze the athlete's training load, HRV, recovery, and fitness trends, and provide actionable insights.
+- [ ] Be able to offer tips and consulting on nutrition, technique, injury prevention, and race strategy, adapted to the athlete's context.
+- [ ] Update the available workouts with reference books and articles.
+  - [ ] Climbing
+  - [ ] Alpinism
+  - [ ] Trail running
+  - [ ] Piramides del entranamiento
+  - [ ] Overcome gravity book guides and exercises
