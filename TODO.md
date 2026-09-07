@@ -6,5 +6,6 @@
   - [ ] Climbing
   - [ ] Alpinism
   - [ ] Trail running
-  - [ ] Piramides del entranamiento
+  - [ ] Piramides del entranamiento y de la nutricion
   - [ ] Overcome gravity book guides and exercises
+- [ ] Calculate the macro base on the workouts of the date.
