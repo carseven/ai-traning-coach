@@ -110,9 +110,10 @@ _Metas temporales jerarquizadas que guían la periodización del plan._
 
 _Carreras objetivo y de preparación. Las fechas concretas son necesarias para periodizar y taperizar (metodología §1, §8)._
 
-| Fecha       | Nombre           | Distancia | D+      | Tipo                                                    | Prioridad |
-| ----------- | ---------------- | --------- | ------- | ------------------------------------------------------- | --------- |
-| 21 nov 2026 | Valldigna Extrem | 40 km     | 1.800 m | Marcha senderista de montaña, no competitiva, corte 12h | A         |
+| Fecha       | Nombre           | Distancia | D+       | Tipo                                                                                                              | Prioridad |
+| ----------- | ---------------- | --------- | -------- | ----------------------------------------------------------------------------------------------------------------- | --------- |
+| 21 nov 2026 | Valldigna Extrem | 40 km     | 1.800 m  | Marcha senderista de montaña, no competitiva, corte 12h                                                           | A         |
+| 2 feb 2027  | Trail Les Creus  | ~22 km    | ~1.250 m | Carrera de trail running, Tavernes de la Valldigna, terreno pedregoso/técnico (reglamento 2027 aún sin confirmar) | B         |
 
 ### Modelo de Periodización
 
@@ -182,3 +183,4 @@ _Issues detectados, patrones de comportamiento, señales positivas. Registro viv
 
 - (13 sept 2026) Perfil real de la Valldigna Extrem analizado desde GPX (track 2025, ~36.8 km, D+1.658 m / D-1.652 m — el reglamento indica 40 km/1.800 m, puede variar ligeramente en la edición 2026). Dos subidas fuertes sostenidas (km 3-7 y km 18-24, 8-9.5% con rampa de 21.6% en km 22) y tres bajadas muy técnicas (km 8: -19.6%, km 26: -14.5%, km 34: -18.9%) — estas últimas son las zonas de mayor riesgo para cuádriceps/rodilla y donde más rentable es el trabajo excéntrico.
 - (16 sept 2026) Sesión intensa el día previo dejó al atleta con sensación de debilidad; se saltó el bloque de cinta/stepmill vertical del miércoles (fuerza de torso sí completada). Sueño de la noche del 15-16 sept normal (~8h17, 497 min). Se reprograma el trabajo vertical pendiente al jueves, fusionado con el rodaje llano (ver plan del 17 sept), reduciendo pendiente/volumen respecto a la prescripción estándar de semana 1 para no acumular fatiga.
+- (16 sept 2026) Añadido objetivo B post-Valldigna Extrem: Trail Les Creus, 2 feb 2027, Tavernes de la Valldigna (~22 km / ~1.250 m D+, terreno muy pedregoso/técnico según Wikiloc — reglamento 2027 aún sin confirmar oficialmente). Ver informe completo en `plans/les-creus-2027/informe.md`: bloque de 10 semanas entre carreras (recuperación → rebase → construcción específica → pico → taper), reutilizando las mismas rutinas de fuerza/excéntrico de la Valldigna Extrem por compartir patrón de riesgo (rodilla/cuádriceps en bajada técnica).
