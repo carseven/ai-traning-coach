@@ -13,18 +13,18 @@ _Datos biométricos, médicos y logísticos que definen el contexto vital del at
 
 _Condiciones activas que afectan al entrenamiento, y lesiones pasadas relevantes para prevención._
 
-- **Condiciones actuales:** [Sin condiciones limitantes registradas]
-- **Historial de lesiones:** [Sin lesiones relevantes registradas]
+- **Condiciones actuales:** Sin molestia activa a día de hoy (13 sept 2026).
+- **Historial de lesiones:** Lesión de cuádriceps en agosto 2026 (recuperado). Rodillas propensas a molestias de forma recurrente — vigilar volumen de bajada/impacto y priorizar trabajo excéntrico y de estabilidad.
 
 ### Disponibilidad y Horario
 
 _Restricciones de calendario fijas y preferencias de conciliación._
 
-- **Restricciones fijas:** Días/horas no disponibles para correr (trabajo, compromisos)
-- **Otras actividades deportivas:** Fuerza, ciclismo, natación, etc. — días y horario
+- **Restricciones fijas:** Vive en el centro de Valencia (sin desnivel accesible entre semana). Las tiradas largas/con desnivel solo son posibles en fin de semana, y no todos los fines de semana.
+- **Otras actividades deportivas:** 3 días de fuerza/gimnasio, 1 día de escalada (ocio), 2 días de carrera — estructura actual antes de añadir trabajo específico de carrera.
 - **Preferencias:**
   - Horario preferido para correr
-  - Día preferido para tirada larga
+  - Día preferido para tirada larga: fin de semana (no siempre disponible)
   - Prioridad vida-deporte
 
 ## 2. Información Deportiva
@@ -32,7 +32,7 @@ _Restricciones de calendario fijas y preferencias de conciliación._
 _Perfil atlético, historial, capacidades fisiológicas y herramientas disponibles._
 
 - **Historial deportivo:** Años corriendo, background, nivel
-- **Ritmo de referencia actual:** Ritmo cómodo/conversacional
+- **Ritmo de referencia actual:** ~7:00-7:30 min/km llano en cómodo/RPE 4-5 (registros reloj sept 2026, 9-12 km); en terreno de montaña con mochila, ritmos de 15-30 min/km según desnivel (registro trekking ago 2026)
 
 ### Métricas Fisiológicas
 
@@ -92,7 +92,8 @@ _Hardware y material disponible para el entrenamiento._
 
 _Disciplinas complementarias activas. Mantener vacío si no aplica. Detalles metodológicos en `references/strength.md`, `references/cycling.md`, `references/swimming.md`._
 
-- **Fuerza/Core:** Frecuencia, foco actual (hipertrofia, prevención, potencia), tests/PRs si aplica
+- **Fuerza/Core:** 3 días/semana (Lunes pierna+excéntrico, Miércoles torso, Viernes fullbody+core+tobillo). Foco redirigido hacia prevención de rodilla/cuádriceps y trabajo excéntrico de cara a la carrera.
+- **Escalada:** 1 día/semana, ocio, bajo impacto — mantener sin cambios.
 - **Ciclismo:** Frecuencia, tipo (rodillo, ruta, MTB), FTP si lo conoce
 - **Natación:** Frecuencia, nivel técnico, CSS/T1500 si lo conoce
 
@@ -109,9 +110,9 @@ _Metas temporales jerarquizadas que guían la periodización del plan._
 
 _Carreras objetivo y de preparación. Las fechas concretas son necesarias para periodizar y taperizar (metodología §1, §8)._
 
-| Fecha | Nombre | Distancia | D+ | Tipo | Prioridad |
-|-------|--------|-----------|-----|------|-----------|
-|  |  |  |  |  | A/B/C |
+| Fecha       | Nombre           | Distancia | D+      | Tipo                                                    | Prioridad |
+| ----------- | ---------------- | --------- | ------- | ------------------------------------------------------- | --------- |
+| 21 nov 2026 | Valldigna Extrem | 40 km     | 1.800 m | Marcha senderista de montaña, no competitiva, corte 12h | A         |
 
 ### Modelo de Periodización
 
@@ -157,8 +158,8 @@ _Reglas para exportar planes a calendario y dispositivo._
 
 _Contexto vivo del estado físico/mental actual y foco del microciclo presente. Actualizar frecuentemente._
 
-- **Última actualización:** [DD mes AAAA]
-- **Fase:** [Base / Específico / Taper / Recuperación / Reacondicionamiento]
+- **Última actualización:** 16 sept 2026
+- **Fase:** Base + prehab (semana 1 de 10)
 
 ### Volumen Actual
 
@@ -179,4 +180,5 @@ _Snapshot de métricas recientes del dispositivo, pero no métricas que cambien 
 
 _Issues detectados, patrones de comportamiento, señales positivas. Registro vivo que informa decisiones. Para las observaciones es importante que plasmes también la fecha en la que la registraste, para saber si llevan mucho tiempo, si siguen aplicando en el presente, etc_
 
-- [Observaciones relevantes]
+- (13 sept 2026) Perfil real de la Valldigna Extrem analizado desde GPX (track 2025, ~36.8 km, D+1.658 m / D-1.652 m — el reglamento indica 40 km/1.800 m, puede variar ligeramente en la edición 2026). Dos subidas fuertes sostenidas (km 3-7 y km 18-24, 8-9.5% con rampa de 21.6% en km 22) y tres bajadas muy técnicas (km 8: -19.6%, km 26: -14.5%, km 34: -18.9%) — estas últimas son las zonas de mayor riesgo para cuádriceps/rodilla y donde más rentable es el trabajo excéntrico.
+- (16 sept 2026) Sesión intensa el día previo dejó al atleta con sensación de debilidad; se saltó el bloque de cinta/stepmill vertical del miércoles (fuerza de torso sí completada). Sueño de la noche del 15-16 sept normal (~8h17, 497 min). Se reprograma el trabajo vertical pendiente al jueves, fusionado con el rodaje llano (ver plan del 17 sept), reduciendo pendiente/volumen respecto a la prescripción estándar de semana 1 para no acumular fatiga.
