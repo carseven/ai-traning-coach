@@ -207,6 +207,11 @@ def initialize_database(path: Path) -> None:
                 duration_minutes INTEGER NOT NULL,
                 distance_m REAL,
                 calories_kcal REAL,
+                average_heart_rate_bpm REAL,
+                min_heart_rate_bpm REAL,
+                max_heart_rate_bpm REAL,
+                elevation_gain_m REAL,
+                elevation_loss_m REAL,
                 PRIMARY KEY (user_id, workout_id)
             );
             CREATE TABLE IF NOT EXISTS body_measurements (
@@ -223,7 +228,17 @@ def initialize_database(path: Path) -> None:
             connection.execute("ALTER TABLE workouts ADD COLUMN calories_kcal REAL")
         if "workout_name" not in columns:
             connection.execute("ALTER TABLE workouts ADD COLUMN workout_name TEXT")
-        connection.execute("PRAGMA user_version = 4")
+        workout_columns = {
+            "average_heart_rate_bpm": "REAL",
+            "min_heart_rate_bpm": "REAL",
+            "max_heart_rate_bpm": "REAL",
+            "elevation_gain_m": "REAL",
+            "elevation_loss_m": "REAL",
+        }
+        for column, column_type in workout_columns.items():
+            if column not in columns:
+                connection.execute(f"ALTER TABLE workouts ADD COLUMN {column} {column_type}")
+        connection.execute("PRAGMA user_version = 5")
 
 
 def cache_coverage(database: Path) -> dict[str, int]:
@@ -282,6 +297,11 @@ def nonnegative_float(value: Any) -> float | None:
         return None
     parsed = float(value)
     return parsed if parsed >= 0 else None
+
+
+def centimeters_to_meters(value: Any) -> float | None:
+    centimeters = nonnegative_float(value)
+    return centimeters / 100 if centimeters is not None else None
 
 
 def request_json(client: httpx.Client, url: str, params: dict[str, Any]) -> dict[str, Any]:
@@ -556,13 +576,19 @@ def sync_workouts(
         connection.execute(
             "INSERT INTO workouts ("
             "user_id, workout_id, local_date, activity_type, workout_name, start_at, "
-            "duration_minutes, distance_m, calories_kcal"
-            ") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?) "
+            "duration_minutes, distance_m, calories_kcal, average_heart_rate_bpm, "
+            "min_heart_rate_bpm, max_heart_rate_bpm, elevation_gain_m, elevation_loss_m"
+            ") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) "
             "ON CONFLICT(user_id, workout_id) DO UPDATE SET local_date = excluded.local_date, "
             "activity_type = excluded.activity_type, workout_name = excluded.workout_name, "
             "start_at = excluded.start_at, "
             "duration_minutes = excluded.duration_minutes, distance_m = excluded.distance_m, "
-            "calories_kcal = excluded.calories_kcal",
+            "calories_kcal = excluded.calories_kcal, "
+            "average_heart_rate_bpm = excluded.average_heart_rate_bpm, "
+            "min_heart_rate_bpm = excluded.min_heart_rate_bpm, "
+            "max_heart_rate_bpm = excluded.max_heart_rate_bpm, "
+            "elevation_gain_m = excluded.elevation_gain_m, "
+            "elevation_loss_m = excluded.elevation_loss_m",
             (
                 user_id,
                 str(workout_id),
@@ -573,6 +599,18 @@ def sync_workouts(
                 duration,
                 nonnegative_float(item.get("dis")),
                 nonnegative_float(item.get("calorie")),
+                nonnegative_float(first_present(item, ("avg_heart_rate", "average_beat"))),
+                nonnegative_float(first_present(item, ("min_heart_rate",))),
+                nonnegative_float(first_present(item, ("max_heart_rate",))),
+                centimeters_to_meters(
+                    first_present(
+                        item,
+                        ("elevationGain", "altitude_ascend", "cumulativeMountainClimbing"),
+                    )
+                ),
+                centimeters_to_meters(
+                    first_present(item, ("elevationLoss", "altitude_descend"))
+                ),
             ),
         )
         record_raw(connection, user_id, "workouts", str(workout_id), item)

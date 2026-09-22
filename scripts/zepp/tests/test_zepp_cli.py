@@ -147,6 +147,11 @@ def test_sync_writes_all_supported_data_types_and_advances_cursors(cli, monkeypa
                                     "run_time": 1800,
                                     "dis": 5000,
                                     "calorie": 350,
+                                    "avg_heart_rate": 142,
+                                    "min_heart_rate": 108,
+                                    "max_heart_rate": 171,
+                                    "elevationGain": 220,
+                                    "elevationLoss": 218,
                                 }
                             ]
                         }
@@ -194,5 +199,9 @@ def test_sync_writes_all_supported_data_types_and_advances_cursors(cli, monkeypa
         assert (
             connection.execute("SELECT workout_name FROM workouts").fetchone()[0] == "Morning run"
         )
+        assert connection.execute(
+            "SELECT average_heart_rate_bpm, min_heart_rate_bpm, max_heart_rate_bpm, "
+            "elevation_gain_m, elevation_loss_m FROM workouts"
+        ).fetchone() == (142.0, 108.0, 171.0, 2.2, 2.18)
         assert connection.execute("SELECT COUNT(*) FROM body_measurements").fetchone()[0] == 1
         assert connection.execute("SELECT COUNT(*) FROM sync_state").fetchone()[0] == 5
