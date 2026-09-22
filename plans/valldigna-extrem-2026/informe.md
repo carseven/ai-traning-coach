@@ -52,7 +52,7 @@ El track de referencia mide ~36.8 km con D+1.658 m / D-1.652 m (ligera diferenci
 
 - Vive en el centro de Valencia: sin desnivel accesible entre semana, tiradas largas con desnivel solo posibles algunos fines de semana.
 - Historial: lesión de cuádriceps en agosto 2026 (recuperado), rodillas propensas a molestias recurrentes.
-- Estructura de entrenamiento actual: 3 días de fuerza/gimnasio, 1 día de escalada (ocio), 2 días de running.
+- Estructura de entrenamiento actual: 3 días de fuerza/gimnasio, 1 día de escalada (deporte principal), 2 días de running.
 - Ritmo llano cómodo actual: ~7:00-7:30 min/km (RPE 4-5, registros de reloj sept 2026).
 - En terreno de montaña con mochila: ritmos de 15-30 min/km según desnivel (registro de trekking de 3 días, ago 2026).
 
@@ -70,14 +70,16 @@ El track de referencia mide ~36.8 km con D+1.658 m / D-1.652 m (ligera diferenci
 
 No se añaden días nuevos: se redirigen 2 de las 6 sesiones ya existentes hacia el objetivo de carrera.
 
-| Día                                 | Sesión                                                  |
-| ------------------------------------ | -------------------------------------------------------- |
-| Lunes                                | Escalada (ocio) — sin cambios, complemento de bajo impacto |
-| Martes                               | Fuerza 1 — Pierna + excéntrico (ver §6.1)                |
-| Miércoles                            | Fuerza 2 — Torso (§6.2) + Running 1 — cinta/stepmill vertical (§6.4) |
-| Jueves                                | Running 2 — Rodaje llano ciudad, 45-50 min continuos, 7:00-7:30 min/km, RPE 4-5 (~6.5-7 km). Recuperación activa entre el miércoles (vertical) y el viernes (fullbody) |
-| Viernes                               | Fuerza 3 — Fullbody + core + tobillo (§6.3)              |
-| Fin de semana (cuando sea posible)   | Tirada larga con desnivel real (§6.5). Si solo hay un día libre, prioriza el domingo para más margen de recuperación tras el viernes |
+| Día                                | Sesión                                                                                                                                                                 |
+| ---------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Lunes                              | Escalada — deporte principal, sin cambios en volumen. Añadir bloque diario de movilidad/core (§6.6) como calentamiento                                                 |
+| Martes                             | Fuerza 1 — Pierna + excéntrico (ver §6.1)                                                                                                                              |
+| Miércoles                          | Fuerza 2 — Torso (§6.2) + Running 1 — cinta/stepmill vertical (§6.4)                                                                                                   |
+| Jueves                             | Running 2 — Rodaje llano ciudad, 45-50 min continuos, 7:00-7:30 min/km, RPE 4-5 (~6.5-7 km). Recuperación activa entre el miércoles (vertical) y el viernes (fullbody) |
+| Viernes                            | Fuerza 3 — Fullbody + core + tobillo (§6.3)                                                                                                                            |
+| Fin de semana (cuando sea posible) | Tirada larga con desnivel real (§6.5). Si solo hay un día libre, prioriza el domingo para más margen de recuperación tras el viernes                                   |
+
+**Movilidad/core diario (12-15 min):** independiente del día de escalada, ver §6.6 más abajo — bloque de baja fatiga (RPE 4-5), puede ir cualquier día sin comprometer ni running ni escalada. Es el único añadido nuevo a la semana; el resto de sesiones no cambian.
 
 **Nota sobre el miércoles:** al juntar torso + vertical el mismo día, haz primero el bloque de fuerza y deja el running vertical para el final (o en otro momento del día si puedes), para no comprometer la técnica de press/dominadas con las piernas ya fatigadas de la cinta.
 
@@ -90,7 +92,7 @@ No se añaden días nuevos: se redirigen 2 de las 6 sesiones ya existentes hacia
 Objetivo: fuerza de pierna y, sobre todo, tolerancia excéntrica para las 3 bajadas técnicas del recorrido (km 8: -19.6%, km 26: -14.5%, km 34: -18.9%), clave dado el historial de lesión de cuádriceps y rodillas propensas.
 
 | Ejercicio                                      | Series x reps   | Nota                         |
-| ------------------------------------------------ | ----------------- | ------------------------------ |
+| ---------------------------------------------- | --------------- | ---------------------------- |
 | Sentadilla goblet/barra                        | 4x8             | RPE 7                        |
 | Step-down lento (cajón)                        | 3x10 por pierna | Bajada controlada 3-4 seg    |
 | Zancada búlgara                                | 3x10 por pierna | Peso progresivo cada semana  |
@@ -100,7 +102,7 @@ Objetivo: fuerza de pierna y, sobre todo, tolerancia excéntrica para las 3 baja
 **Progresión por fase:**
 
 | Semanas     | Step-down                     | Tempo bajada | Nota                                    |
-| ------------- | -------------------------------- | -------------- | ------------------------------------------ |
+| ----------- | ----------------------------- | ------------ | --------------------------------------- |
 | 1-3 (base)  | Cajón 20 cm                   | 3 seg        | Base de tolerancia                      |
 | 4-6 (build) | Cajón 25 cm                   | 4 seg        | Ya replica una bajada tipo -14% (km26)  |
 | 7-8 (pico)  | Cajón 25-30 cm + peso extra   | 4-5 seg      | Prepara específicamente km8/km34 (-19%) |
@@ -113,14 +115,14 @@ Zancada búlgara y prensa unilateral siguen la misma progresión de carga (sube 
 
 La escalada ya trabaja mucho tirón (dorsal, bíceps, agarre). Este día se enfoca en **empuje + salud de hombro + core anti-rotación**, para no duplicar ni sobrecargar.
 
-| Ejercicio                                    | Series x reps | Nota                                                                                                |
-| ----------------------------------------------- | ---------------- | ------------------------------------------------------------------------------------------------------ |
-| Press banca o press inclinado con mancuernas | 4x8           | RPE 7                                                                                               |
+| Ejercicio                                    | Series x reps | Nota                                                                                               |
+| -------------------------------------------- | ------------- | -------------------------------------------------------------------------------------------------- |
+| Press banca o press inclinado con mancuernas | 4x8           | RPE 7                                                                                              |
 | Press militar con mancuernas (de pie)        | 3x10          | RPE 6-7, también entrena estabilidad de tronco (útil con mochila)                                  |
 | Remo a una mano con mancuerna                | 3x10 por lado | Volumen bajo a propósito, equilibra el tirón de la escalada                                        |
 | Face pull (banda o polea)                    | 3x15          | Salud de hombro; no lleva volumen extra de tirón, ya cubierto por escalada + dominadas del viernes |
-| Pallof press (anti-rotación)                 | 3x12 por lado |                                                                                                      |
-| Plancha con marcha o plancha lateral         | 3x30-45 seg   |                                                                                                      |
+| Pallof press (anti-rotación)                 | 3x12 por lado |                                                                                                    |
+| Plancha con marcha o plancha lateral         | 3x30-45 seg   |                                                                                                    |
 
 Progresión de carga: sube peso/dificultad cada 2 semanas hasta semana 8 (pico), reduce en semanas 9-10 (sharpen/taper).
 
@@ -128,14 +130,14 @@ Progresión de carga: sube peso/dificultad cada 2 semanas hasta semana 8 (pico),
 
 Cierra la semana con patrones que no se tocan el martes (cuádriceps/rodilla) ni el miércoles (empuje de torso): bisagra de cadera, tirón vertical y algo de pecho, más el bloque de estabilidad.
 
-| Ejercicio                                            | Series x reps          | Nota                                                                                |
-| ------------------------------------------------------- | ------------------------- | ---------------------------------------------------------------------------------------- |
-| Peso muerto rumano (RDL) o hip thrust                | 3x8-10                 | Cadena posterior (glúteo/isquios), equilibra el trabajo de cuádriceps del martes    |
-| Dominadas (asistidas si hace falta)                  | 3x6-8 o al fallo       | Tirón vertical: agarre y dorsal, útil para escalada y para llevar mochila           |
-| Press de pecho con mancuernas o fondos en paralelas  | 3x10                   | RPE 6-7, volumen moderado (el miércoles ya trabaja empuje)                          |
+| Ejercicio                                            | Series x reps          | Nota                                                                                 |
+| ---------------------------------------------------- | ---------------------- | ------------------------------------------------------------------------------------ |
+| Peso muerto rumano (RDL) o hip thrust                | 3x8-10                 | Cadena posterior (glúteo/isquios), equilibra el trabajo de cuádriceps del martes     |
+| Dominadas (asistidas si hace falta)                  | 3x6-8 o al fallo       | Tirón vertical: agarre y dorsal, útil para escalada y para llevar mochila            |
+| Press de pecho con mancuernas o fondos en paralelas  | 3x10                   | RPE 6-7, volumen moderado (el miércoles ya trabaja empuje)                           |
 | Zancada caminando o step-up lateral                  | 3x10 por pierna        | Patrón multiplanar distinto al del martes, estabilidad de rodilla en frontal/lateral |
-| Equilibrio a una pierna (suelo, luego ojos cerrados) | 3x30-45 seg por pierna | Propiocepción                                                                       |
-| Banda tobillo (inversión/eversión)                   | 3x15 por lado          | Prevención de esguince en terreno técnico                                          |
+| Equilibrio a una pierna (suelo, luego ojos cerrados) | 3x30-45 seg por pierna | Propiocepción                                                                        |
+| Banda tobillo (inversión/eversión)                   | 3x15 por lado          | Prevención de esguince en terreno técnico                                            |
 | Elevación de talón a una pierna                      | 3x15 por pierna        |                                                                                      |
 
 Progresión de carga: sube peso/dificultad cada 2 semanas hasta semana 8 (pico), reduce en semanas 9-10 (sharpen/taper).
@@ -144,8 +146,8 @@ Progresión de carga: sube peso/dificultad cada 2 semanas hasta semana 8 (pico),
 
 Simula las subidas sostenidas del recorrido (km 3-7 al 8-9.5%, y la rampa de km 22 al 21.6%).
 
-| Semanas     | Contenido                                                          | Pendiente                        | Objetivo                                          |
-| ------------- | --------------------------------------------------------------------- | ----------------------------------- | ---------------------------------------------------- |
+| Semanas     | Contenido                                                         | Pendiente                       | Objetivo                                          |
+| ----------- | ----------------------------------------------------------------- | ------------------------------- | ------------------------------------------------- |
 | 1-3 (base)  | 4x8 min caminando a 5-5.5 km/h, 2-3 min trote llano entre bloques | 10-12%                          | Adaptación general a subida sostenida             |
 | 4-6 (build) | Igual + 1 bloque final de 3 min                                   | Sube a 12-15%, bloque final 18% | Empieza a tocar la intensidad de la rampa de km22 |
 | 7-8 (pico)  | Bloques de 10 min a 12-15% + 2x3 min a 18-20%                     | Mixto                           | Simulación directa de km 18-24                    |
@@ -158,20 +160,31 @@ Total de sesión: 30-45 min según fase.
 
 Cuando el finde lo permita (no todos son posibles por vivir en el centro de Valencia). Si no se puede salir, sustituir por el "brick" de gym: stepmill/incline + step-downs excéntricos + bici/remo, ajustando el tiempo total a la duración objetivo de la tabla.
 
-| Semana | Duración     | D+ aprox.   | Foco específico del perfil de carrera                                                    |
-| -------- | -------------- | ------------- | ---------------------------------------------------------------------------------------------- |
+| Semana | Duración     | D+ aprox.   | Foco específico del perfil de carrera                                                   |
+| ------ | ------------ | ----------- | --------------------------------------------------------------------------------------- |
 | 1      | 1h30         | 250-350 m   | Subidas/bajadas suaves, sin buscar pendiente extrema                                    |
-| 2      | 1h45-2h      | 350-450 m   | Igual                                                                                    |
+| 2      | 1h45-2h      | 350-450 m   | Igual                                                                                   |
 | 3      | 2h           | 450-550 m   | Empieza a correr bajadas moderadas controladas                                          |
 | 4      | 2h30         | 600-700 m   | Busca un tramo de subida sostenida 8-10% durante 20-30 min seguidos (simula km 3-7)     |
 | 5      | 2h45-3h      | 700-800 m   | Añade una bajada de 12-15% practicada lenta y controlada + nutrición de carrera         |
-| 6      | 3h (cutback) | ~500 m      | Descarga, nada intenso                                                                   |
+| 6      | 3h (cutback) | ~500 m      | Descarga, nada intenso                                                                  |
 | 7      | 3h30         | 900-1000 m  | Si es posible, rampa corta y muy dura (15-20%) simulando km22, y bajada técnica similar |
 | 8      | 4h (pico)    | 1100-1200 m | Simulacro completo: subida larga + rampa dura + bajada técnica + mochila + nutrición    |
-| 9      | 3h           | 600-700 m   | Bajando volumen, mantener alguna bajada técnica corta                                    |
-| 10     | 1h-1h30      | suave       | Solo activación, cero bajadas duras                                                      |
+| 9      | 3h           | 600-700 m   | Bajando volumen, mantener alguna bajada técnica corta                                   |
+| 10     | 1h-1h30      | suave       | Solo activación, cero bajadas duras                                                     |
 
 **Nota de seguridad:** no buscar replicar el 21.6% o el -19.6% de forma real hasta la semana 4-5, para dar tiempo al trabajo excéntrico de gym a preparar el tejido (rodilla/cuádriceps).
+
+### 6.6 Movilidad/core diario (12-15 min)
+
+Rutina única que cubre los dos objetivos activos: técnica de bajada/estabilidad de tobillo para la Valldigna Extrem, y movilidad de cadera/torácica + core anti-extensión para escalada. Puedes hacerla todos los días que quieras — el bloque de movilidad no tiene límite de frecuencia (RPE 4-5); el de core, mejor 5-6x/semana dejando 1 día si notas fatiga acumulada de fuerza/tirada larga. Banco de ejercicios y criterios de progresión en `references/climbing.md` §2 (movilidad) y §5 (core).
+
+| Bloque    | Ejercicios                                                                                                                                                               | Duración |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- |
+| Movilidad | Hip CARs (5/lado) · Cossack squat (6/lado) · Open book torácico (6/lado) · Movilidad de tobillo/rodilla a pared (10/lado, clave para las bajadas técnicas de km 8/26/34) | 5-6 min  |
+| Core      | Hollow body hold (3x20-30s) · Dead bug (3x8/lado) · Core con alcance overhead en banda (3x8-10) · Plancha lateral (2x30-40s/lado)                                        | 7-9 min  |
+
+**Progresión (revisar cada 4-6 semanas o al cambiar de fase):** hollow body con rodillas → pierna extendida; cuando el core esté sólido (no antes de 6-8 semanas), sustituir la plancha lateral 2-3x/semana por body-lift (gesto específico de escalada, ver `references/climbing.md` §5).
 
 ## 7. Pendiente / próximos pasos
 
