@@ -72,14 +72,14 @@ No se añaden días nuevos: se redirigen 2 de las 6 sesiones ya existentes hacia
 
 | Día                                | Sesión                                                                                                                                                                 |
 | ---------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Lunes                              | Escalada — deporte principal, sin cambios en volumen. Añadir bloque diario de movilidad/core (§6.6) como calentamiento                                                 |
+| Lunes                              | Escalada — deporte principal, sin cambios en volumen. Hacer el bloque matinal de movilidad/core (§6.6)                                                                 |
 | Martes                             | Fuerza 1 — Pierna + excéntrico (ver §6.1)                                                                                                                              |
-| Miércoles                          | Fuerza 2 — Torso (§6.2) + Running 1 — cinta/stepmill vertical (§6.4)                                                                                                   |
+| Miércoles                          | Fuerza 2 — Torso (§6.2) + Running 1 — cinta/stepmill vertical (§6.4) + core/movilidad matinal (§6.6)                                                                   |
 | Jueves                             | Running 2 — Rodaje llano ciudad, 45-50 min continuos, 7:00-7:30 min/km, RPE 4-5 (~6.5-7 km). Recuperación activa entre el miércoles (vertical) y el viernes (fullbody) |
-| Viernes                            | Fuerza 3 — Fullbody + core + tobillo (§6.3)                                                                                                                            |
+| Viernes                            | Fuerza 3 — Fullbody + tobillo (§6.3) + core/movilidad matinal (§6.6)                                                                                                   |
 | Fin de semana (cuando sea posible) | Tirada larga con desnivel real (§6.5). Si solo hay un día libre, prioriza el domingo para más margen de recuperación tras el viernes                                   |
 
-**Movilidad/core diario (12-15 min):** independiente del día de escalada, ver §6.6 más abajo — bloque de baja fatiga (RPE 4-5), puede ir cualquier día sin comprometer ni running ni escalada. Es el único añadido nuevo a la semana; el resto de sesiones no cambian.
+**Core/movilidad (15-20 min):** lunes, miércoles y viernes por la mañana, ver §6.6. Sustituye todo el core explícito del gimnasio y la rutina diaria anterior. El bloque empieza con dosis de principiante para favorecer la adherencia y evitar interferencia con escalada, running y fuerza.
 
 **Nota sobre el miércoles:** al juntar torso + vertical el mismo día, haz primero el bloque de fuerza y deja el running vertical para el final (o en otro momento del día si puedes), para no comprometer la técnica de press/dominadas con las piernas ya fatigadas de la cinta.
 
@@ -121,14 +121,12 @@ La escalada ya trabaja mucho tirón (dorsal, bíceps, agarre). Este día se enfo
 | Press militar con mancuernas (de pie)        | 3x10          | RPE 6-7, también entrena estabilidad de tronco (útil con mochila)                                  |
 | Remo a una mano con mancuerna                | 3x10 por lado | Volumen bajo a propósito, equilibra el tirón de la escalada                                        |
 | Face pull (banda o polea)                    | 3x15          | Salud de hombro; no lleva volumen extra de tirón, ya cubierto por escalada + dominadas del viernes |
-| Pallof press (anti-rotación)                 | 3x12 por lado |                                                                                                    |
-| Plancha con marcha o plancha lateral         | 3x30-45 seg   |                                                                                                    |
 
 Progresión de carga: sube peso/dificultad cada 2 semanas hasta semana 8 (pico), reduce en semanas 9-10 (sharpen/taper).
 
-### 6.3 Fuerza 3 (Viernes) — Fullbody + core + tobillo
+### 6.3 Fuerza 3 (Viernes) — Fullbody + tobillo
 
-Cierra la semana con patrones que no se tocan el martes (cuádriceps/rodilla) ni el miércoles (empuje de torso): bisagra de cadera, tirón vertical y algo de pecho, más el bloque de estabilidad.
+Cierra la semana con patrones que no se tocan el martes (cuádriceps/rodilla) ni el miércoles (empuje de torso): bisagra de cadera, tirón vertical y algo de pecho, más el bloque de estabilidad. El core específico se realiza por la mañana en §6.6 y no se repite en el gimnasio.
 
 | Ejercicio                                            | Series x reps          | Nota                                                                                 |
 | ---------------------------------------------------- | ---------------------- | ------------------------------------------------------------------------------------ |
@@ -175,16 +173,26 @@ Cuando el finde lo permita (no todos son posibles por vivir en el centro de Vale
 
 **Nota de seguridad:** no buscar replicar el 21.6% o el -19.6% de forma real hasta la semana 4-5, para dar tiempo al trabajo excéntrico de gym a preparar el tejido (rodilla/cuádriceps).
 
-### 6.6 Movilidad/core diario (12-15 min)
+### 6.6 Core y movilidad matinal (lunes, miércoles y viernes; 15-20 min)
 
-Rutina única que cubre los dos objetivos activos: técnica de bajada/estabilidad de tobillo para la Valldigna Extrem, y movilidad de cadera/torácica + core anti-extensión para escalada. Puedes hacerla todos los días que quieras — el bloque de movilidad no tiene límite de frecuencia (RPE 4-5); el de core, mejor 5-6x/semana dejando 1 día si notas fatiga acumulada de fuerza/tirada larga. Banco de ejercicios y criterios de progresión en `references/climbing.md` §2 (movilidad) y §5 (core).
+Esta sesión reúne el trabajo específico que antes estaba repartido entre los tres días de gimnasio y el bloque diario. El objetivo principal es mejorar la tensión corporal, la anti-rotación, la aducción y la movilidad activa útil para pies, high-steps, heel hooks y mantener la cadera cerca de la pared. La dosis inicial es deliberadamente corta para construir adherencia durante la preparación de Valldigna Extrem.
 
-| Bloque    | Ejercicios                                                                                                                                                               | Duración |
-| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------- |
-| Movilidad | Hip CARs (5/lado) · Cossack squat (6/lado) · Open book torácico (6/lado) · Movilidad de tobillo/rodilla a pared (10/lado, clave para las bajadas técnicas de km 8/26/34) | 5-6 min  |
-| Core      | Hollow body hold (3x20-30s) · Dead bug (3x8/lado) · Core con alcance overhead en banda (3x8-10) · Plancha lateral (2x30-40s/lado)                                        | 7-9 min  |
+| Bloque    | Ejercicio                                                                                                 | Dosis inicial      |
+| --------- | --------------------------------------------------------------------------------------------------------- | ------------------ |
+| Movilidad | [Butterfly suave](https://www.youtube.com/watch?v=kE9r9kteF4M&t=217s)                                     | 30 s               |
+| Movilidad | [Pancake sin peso](https://www.youtube.com/watch?v=kE9r9kteF4M&t=233s)                                    | 30 s               |
+| Movilidad | [QL twist](https://www.youtube.com/watch?v=kE9r9kteF4M&t=233s)                                            | 30 s por lado      |
+| Movilidad | [Frog pose](https://www.youtube.com/watch?v=kE9r9kteF4M&t=233s)                                           | 30 s               |
+| Movilidad | [Supine pigeon](https://www.youtube.com/watch?v=kE9r9kteF4M&t=233s)                                       | 30 s por lado      |
+| Movilidad | [Cossack squat controlada](https://www.youtube.com/watch?v=kE9r9kteF4M&t=144s)                            | 5 por lado         |
+| Core      | [Hollow hold](https://www.youtube.com/watch?v=qTfAwCOiYTM&t=70s)                                          | 2x15-20 s          |
+| Core      | [Plancha con remo con banda ligera](https://www.youtube.com/watch?v=qTfAwCOiYTM&t=125s)                   | 2x4-6 por lado     |
+| Core      | [Copenhagen plank regresado, rodilla apoyada](https://www.youtube.com/watch?v=qTfAwCOiYTM&t=218s)         | 2x10-15 s por lado |
+| Core      | [Star plank regresado en suelo, rodillas flexionadas](https://www.youtube.com/watch?v=qTfAwCOiYTM&t=277s) | 2x10-15 s por lado |
 
-**Progresión (revisar cada 4-6 semanas o al cambiar de fase):** hollow body con rodillas → pierna extendida; cuando el core esté sólido (no antes de 6-8 semanas), sustituir la plancha lateral 2-3x/semana por body-lift (gesto específico de escalada, ver `references/climbing.md` §5).
+La movilidad debe ser activa y controlada, sin dolor ni rebotes. La plancha con remo exige mantener las caderas cuadradas; reducir resistencia o apoyar rodillas antes que compensar. El viernes, si hay tirada larga exigente el fin de semana, hacer una sola serie de core y mantener la movilidad suave.
+
+**Progresión:** revisar cada 4-6 semanas. Primero aumentar control y tiempo; después, ampliar rango o añadir dificultad. El pancake lastrado, el single-leg good morning, el Copenhagen completo, el star plank extendido y el lever quedan fuera de esta fase inicial. El body-lift tampoco se añade todavía: solo cuando esta base sea sólida y no interfiera con la escalada.
 
 ## 7. Pendiente / próximos pasos
 

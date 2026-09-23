@@ -113,15 +113,27 @@ Solo relevante si tienes acceso a rocódromo/pared con presas — no son ejercic
 
 **Progresión avanzada (cuando el body-lift sea sólido, no antes de 6-8 semanas):** lock-off a dos manos en barra (§4) y front lever parcial (rodillas flexionadas primero). Son el siguiente escalón de tensión corporal, propio de escaladores de nivel medio-avanzado — no priorizar sobre la base de esta tabla si aún no es sólida.
 
-### Cómo montar una rutina diaria a partir de este banco
+### Rutina matinal de core y movilidad para escalada
 
-La rutina concreta vive en el plan activo (ej. `plans/valldigna-extrem-2026/informe.md`), no aquí — cambia según el objetivo de carrera/temporada en curso. Criterios para diseñarla o actualizarla cuando cambie el objetivo:
+Esta referencia recoge los ejercicios y las progresiones de los vídeos [Lattice/Anna Davey](https://www.youtube.com/watch?v=qTfAwCOiYTM) y [Lattice/Aidan Roberts](https://www.youtube.com/watch?v=kE9r9kteF4M). Puede adaptarse a cualquier plan como un bloque corto y recurrente de core y movilidad.
 
-1. **Selecciona 2-3 ejercicios de movilidad activa** cubriendo cadera (flexión/rotación) y torácica — son los que más transferencia dan tanto a escalada como a técnica de bajada en trail.
-2. **Selecciona 2-4 ejercicios de core**, priorizando el patrón de anti-extensión (alcance overhead en banda, hollow body) como base y añadiendo el gesto específico (body-lift) solo cuando la base sea sólida.
-3. **Duración total 10-15 min** es suficiente para mantener el estímulo sin restar recuperación a running/fuerza/escalada — no es necesario ni recomendable alargarlo más siendo un bloque diario.
-4. **Frecuencia**: el bloque de movilidad puede ser diario sin restricción (RPE 4-5). El bloque de core con algo de carga/isometría exigente, mejor 5-6x/semana dejando descanso si aparece fatiga acumulada de fuerza/running/escalada esa semana.
-5. **Revisar cada 4-6 semanas** o al cambiar de objetivo/fase: progresar el ejercicio más fácil de la rutina (menos el más difícil) para evitar estancamiento sin acumular fatiga nueva de golpe.
+**Movilidad, una ronda al inicio:**
+
+- Butterfly suave: 30 s.
+- Pancake sin peso: 30 s, sin forzar la amplitud.
+- QL twist: 30 s por lado.
+- Frog pose: 30 s, buscando control de cadera y pelvis.
+- Supine pigeon: 30 s por lado.
+- Cossack squat: 5 repeticiones lentas por lado.
+
+**Core, dos series de cada ejercicio:**
+
+- Hollow hold: 15-20 s, con rodillas flexionadas si hace falta.
+- Plancha con remo: 4-6 repeticiones por lado, con banda ligera y caderas cuadradas. Usar rodillas apoyadas si es necesario.
+- Copenhagen plank: 10-15 s por lado, empezando con la rodilla superior apoyada en el banco.
+- Star plank: 10-15 s por lado como regresión en suelo, con rodillas flexionadas. No usar todavía la progresión a lever.
+
+Duración inicial: **20 min**. La movilidad debe ser activa y controlada, no un estiramiento pasivo intenso. Progresar primero en control y tiempo; después, en amplitud o carga. El pancake lastrado, el single-leg good morning lastrado, el Copenhagen completo y el lever quedan para una fase posterior, cuando la técnica sea sólida durante 4-6 semanas.
 
 ---
 
@@ -152,19 +164,43 @@ Al ser dos deportes principales (no cross-training), la regla no es "proteger la
 - **Comparte estímulo de cadena posterior** con la fuerza de gimnasio ya programada (sentadilla búlgara, peso muerto rumano, hip thrust) — no la sustituye, pero al sumar volumen entre fuerza + core de escalada + running, vigilar la carga total antes de añadir más si aparece fatiga acumulada.
 - **El día de escalada en sí** cuenta como sesión de calidad para el sistema nervioso/tendones (dedos, hombros) — no programar fuerza pesada de tren superior o core de alta carga ese mismo día si la sesión de escalada fue exigente.
 
-### Cómo montar una rutina diaria a partir de este banco de ejercicios
+## 9. Referencias en vídeo y criterios para futuros planes
 
-La rutina concreta vive en el plan activo (ej. `plans/valldigna-extrem-2026/informe.md`), no aquí — cambia según el objetivo de carrera/temporada en curso. Criterios para diseñarla o actualizarla cuando cambie el objetivo:
+### Lattice Training: cuatro ejercicios de core para escalada
 
-1. **Selecciona 2-3 ejercicios de movilidad activa (§1)** cubriendo cadera (flexión/rotación) y torácica — son los que más transferencia dan tanto a escalada como a técnica de bajada en trail.
-2. **Selecciona 2-4 ejercicios de core (§3)**, priorizando el patrón de anti-extensión (alcance overhead en banda, hollow body) como base y añadiendo el gesto específico (body-lift) solo cuando la base sea sólida.
-3. **Duración total 10-15 min** es suficiente para mantener el estímulo sin restar recuperación a running/fuerza/escalada — no es necesario ni recomendable alargarlo más siendo un bloque diario.
-4. **Frecuencia**: el bloque de movilidad puede ser diario sin restricción (RPE 4-5). El bloque de core con algo de carga/isometría exigente, mejor 5-6x/semana dejando descanso si aparece fatiga acumulada de fuerza/running/escalada esa semana.
-5. **Revisar cada 4-6 semanas** o al cambiar de objetivo/fase: progresar el ejercicio más fácil de la rutina (menos el más difícil) para evitar estancamiento sin acumular fatiga nueva de golpe.
+Vídeo de [Anna Davey](https://www.youtube.com/watch?v=qTfAwCOiYTM). La idea central es entrenar el **core como estabilidad de todo el tronco**, incluyendo espalda, glúteos y caderas, no perseguir únicamente la flexión del recto abdominal.
+
+| Ejercicio        | Patrón                                                        | Transferencia a escalada                                                                                     |
+| ---------------- | ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| Hollow hold      | Anti-extensión                                                | Mantiene la pelvis y los pies conectados a la pared en desplomes; evita que la lumbar se arquee al alcanzar. |
+| Plancha con remo | Anti-rotación                                                 | Replica tracción unilateral mientras el cuerpo resiste que las caderas giren o se hundan.                    |
+| Copenhagen plank | Aducción + estabilidad lateral                                | Fortalece la conexión entre aductores, pelvis y tronco para high-steps, stemming y tensión entre pies.       |
+| Star plank       | Anti-extensión + anti-rotación, con demanda de hombro y dedos | Progresión de tensión corporal global; reservar el lever para escaladores con base suficiente.               |
+
+El vídeo propone como referencia avanzada 3 series: plancha con remo 6 por lado, Copenhagen y star plank 20 s por lado, y progresiones a lever con descansos más largos. Para principiantes, futuros planes deben empezar con versiones regresadas, 1-2 series y 10-20 s o 4-6 repeticiones, priorizando pelvis estable y respiración antes de aumentar dificultad.
+
+### Lattice Training: movilidad específica para escalada
+
+Vídeo de [Aidan Roberts](https://www.youtube.com/watch?v=kE9r9kteF4M). La movilidad no se busca solo para colocar una extremidad: aumentar el rango controlable permite ser más fuerte lejos de la posición neutra, donde aparecen footholds, high-steps y heel hooks. El criterio es ganar **rango activo y fuerza en ese rango**, no forzar amplitud pasiva.
+
+| Ejercicio               | Adaptación que desarrolla                        | Transferencia a escalada                                                     |
+| ----------------------- | ------------------------------------------------ | ---------------------------------------------------------------------------- |
+| Pancake                 | Abducción y flexión de cadera, además de isquios | Colocar los pies fuera de la caja natural sin separar la cadera de la pared. |
+| Single-leg good morning | Isquios fuertes durante todo el rango            | Controlar footholds altos o laterales en terreno desplomado.                 |
+| Cossack squat           | Fuerza y rango lateral de cadera/aductores       | Stemming, apertura de piernas y cambios de peso sobre un pie.                |
+| QL twist                | Rotación torácica y descarga lumbar              | Girar el tronco hacia una presa sin compensar con hiperextensión lumbar.     |
+| Frog pose               | Abducción y control de cadera                    | Acercar la pelvis a la pared y sostener posiciones amplias.                  |
+| Supine pigeon           | Rotación externa de cadera y glúteo              | Heel hooks y posiciones de cadera abierta con mejor control.                 |
+
+La fase de desarrollo del vídeo usa pancake lastrado, single-leg good morning y Cossack con carga aproximadamente dos veces por semana. La fase de mantenimiento usa butterfly, pancake sin peso, QL twist, frog y supine pigeon durante unos 10-15 min cada dos días. En planes con running y escalada, empezar sin carga, con amplitud tolerable y control activo; añadir carga solo cuando el rango completo sea estable durante varias semanas.
+
+### Regla para diseñar rutinas
+
+Una rutina de escalada debe combinar al menos un patrón de anti-extensión, uno de anti-rotación o estabilidad lateral y movilidad activa de cadera/torácica. Elegir 2-4 ejercicios de core y 2-4 de movilidad según el objetivo del bloque, mantener la sesión en 10-20 min y revisar cada 4-6 semanas. La dosis debe bajar alrededor de sesiones duras de escalada, tiradas largas o fuerza pesada; la movilidad no debe convertirse en estiramiento pasivo agresivo ni el core en otra sesión de fatiga máxima.
 
 ---
 
-## 9. Notas de cautela
+## 10. Notas de cautela
 
 - El estudio citado (Saeterbakken et al.) es consistente con la literatura conocida de core en escalada, pero no se ha verificado aquí contra la fuente original — tratar los porcentajes como orientativos, no como cifra exacta a perseguir.
 - Rango pasivo forzado sin control activo (estiramientos estáticos intensos sin las fases PAILs/RAILs) puede aumentar la vulnerabilidad articular en posiciones extremas de carga — priorizar siempre la fase de contracción activa sobre el estiramiento pasivo puro.
