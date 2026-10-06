@@ -62,7 +62,7 @@ El track de referencia mide ~36.8 km con D+1.658 m / D-1.652 m (ligera diferenci
 
 | Fase                    | Semanas | Objetivo                                                                                                 |
 | ----------------------- | ------- | -------------------------------------------------------------------------------------------------------- |
-| ~~Base + prehab~~ | ~~1-3~~ | ~~Reactivar volumen, introducir trabajo excéntrico y vertical en gym~~ |
+| ~~Base + prehab~~       | ~~1-3~~ | ~~Reactivar volumen, introducir trabajo excéntrico y vertical en gym~~                                   |
 | Construcción específica | 4-7     | Subir progresivamente la tirada larga (desnivel real), meter pendientes específicas del recorrido en gym |
 | Pico                    | 8       | Día largo más exigente: simulacro completo (subida + rampa dura + bajada técnica + mochila + nutrición)  |
 | Afinado                 | 9       | Bajar volumen, mantener algo de intensidad específica                                                    |
@@ -103,13 +103,13 @@ Objetivo: fuerza de pierna y, sobre todo, tolerancia excéntrica para las 3 baja
 
 **Progresión por fase:**
 
-| Semanas     | Step-down                     | Tempo bajada | Nota                                    |
-| ----------- | ----------------------------- | ------------ | --------------------------------------- |
-| ~~1-3 (base)~~ | ~~Cajón 20 cm~~ | ~~3 seg~~ | ~~Base de tolerancia~~ |
-| 4-6 (build) | Cajón 25 cm                   | 4 seg        | Ya replica una bajada tipo -14% (km26)  |
-| 7-8 (pico)  | Cajón 25-30 cm + peso extra   | 4-5 seg      | Prepara específicamente km8/km34 (-19%) |
-| 9 (sharpen) | Mantener carga, bajar volumen | 4 seg        | No acumular fatiga nueva                |
-| 10 (taper)  | Mantenimiento ligero          | 3 seg        | Cero agujetas nuevas antes de carrera   |
+| Semanas        | Step-down                     | Tempo bajada | Nota                                    |
+| -------------- | ----------------------------- | ------------ | --------------------------------------- |
+| ~~1-3 (base)~~ | ~~Cajón 20 cm~~               | ~~3 seg~~    | ~~Base de tolerancia~~                  |
+| 4-6 (build)    | Cajón 25 cm                   | 4 seg        | Ya replica una bajada tipo -14% (km26)  |
+| 7-8 (pico)     | Cajón 25-30 cm + peso extra   | 4-5 seg      | Prepara específicamente km8/km34 (-19%) |
+| 9 (sharpen)    | Mantener carga, bajar volumen | 4 seg        | No acumular fatiga nueva                |
+| 10 (taper)     | Mantenimiento ligero          | 3 seg        | Cero agujetas nuevas antes de carrera   |
 
 Zancada búlgara y prensa unilateral siguen la misma progresión de carga (sube peso cada 2 semanas hasta semana 8, luego baja en 9-10).
 
@@ -146,13 +146,13 @@ Progresión de carga: sube peso/dificultad cada 2 semanas hasta semana 8 (pico),
 
 Simula las subidas sostenidas del recorrido (km 3-7 al 8-9.5%, y la rampa de km 22 al 21.6%).
 
-| Semanas     | Contenido                                                         | Pendiente                       | Objetivo                                          |
-| ----------- | ----------------------------------------------------------------- | ------------------------------- | ------------------------------------------------- |
-| ~~1-3 (base)~~ | ~~4x8 min caminando a 5-5.5 km/h, 2-3 min trote llano entre bloques~~ | ~~10-12%~~ | ~~Adaptación general a subida sostenida~~ |
-| 4-6 (build) | Igual + 1 bloque final de 3 min                                   | Sube a 12-15%, bloque final 18% | Empieza a tocar la intensidad de la rampa de km22 |
-| 7-8 (pico)  | Bloques de 10 min a 12-15% + 2x3 min a 18-20%                     | Mixto                           | Simulación directa de km 18-24                    |
-| 9 (sharpen) | Mantener estructura, -20% volumen total                           | Igual que semana 6              | No acumular fatiga nueva                          |
-| 10 (taper)  | 20 min suave, sin bloques duros                                   | 8-10%                           | Solo activación                                   |
+| Semanas        | Contenido                                                             | Pendiente                       | Objetivo                                          |
+| -------------- | --------------------------------------------------------------------- | ------------------------------- | ------------------------------------------------- |
+| ~~1-3 (base)~~ | ~~4x8 min caminando a 5-5.5 km/h, 2-3 min trote llano entre bloques~~ | ~~10-12%~~                      | ~~Adaptación general a subida sostenida~~         |
+| 4-6 (build)    | Igual + 1 bloque final de 3 min                                       | Sube a 12-15%, bloque final 18% | Empieza a tocar la intensidad de la rampa de km22 |
+| 7-8 (pico)     | Bloques de 10 min a 12-15% + 2x3 min a 18-20%                         | Mixto                           | Simulación directa de km 18-24                    |
+| 9 (sharpen)    | Mantener estructura, -20% volumen total                               | Igual que semana 6              | No acumular fatiga nueva                          |
+| 10 (taper)     | 20 min suave, sin bloques duros                                       | 8-10%                           | Solo activación                                   |
 
 Total de sesión: 30-45 min según fase.
 
@@ -160,18 +160,18 @@ Total de sesión: 30-45 min según fase.
 
 Cuando el finde lo permita (no todos son posibles por vivir en el centro de Valencia). Si no se puede salir, sustituir por el "brick" de gym: stepmill/incline + step-downs excéntricos + bici/remo, ajustando el tiempo total a la duración objetivo de la tabla.
 
-| Semana | Duración     | D+ aprox.   | Foco específico del perfil de carrera                                                   |
-| ------ | ------------ | ----------- | --------------------------------------------------------------------------------------- |
-| ~~1~~ | ~~1h30~~ | ~~250-350 m~~ | ~~Subidas/bajadas suaves, sin buscar pendiente extrema~~ |
-| ~~2~~ | ~~1h45-2h~~ | ~~350-450 m~~ | ~~Igual~~ |
-| ~~3~~ | ~~2h~~ | ~~450-550 m~~ | ~~Empieza a correr bajadas moderadas controladas~~ |
-| 4      | 2h30         | 600-700 m   | Busca un tramo de subida sostenida 8-10% durante 20-30 min seguidos (simula km 3-7)     |
-| 5      | 2h45-3h      | 700-800 m   | Añade una bajada de 12-15% practicada lenta y controlada + nutrición de carrera         |
-| 6      | 3h (cutback) | ~500 m      | Descarga, nada intenso                                                                  |
-| 7      | 3h30         | 900-1000 m  | Si es posible, rampa corta y muy dura (15-20%) simulando km22, y bajada técnica similar |
-| 8      | 4h (pico)    | 1100-1200 m | Simulacro completo: subida larga + rampa dura + bajada técnica + mochila + nutrición    |
-| 9      | 3h           | 600-700 m   | Bajando volumen, mantener alguna bajada técnica corta                                   |
-| 10     | 1h-1h30      | suave       | Solo activación, cero bajadas duras                                                     |
+| Semana | Duración     | D+ aprox.     | Foco específico del perfil de carrera                                                   |
+| ------ | ------------ | ------------- | --------------------------------------------------------------------------------------- |
+| ~~1~~  | ~~1h30~~     | ~~250-350 m~~ | ~~Subidas/bajadas suaves, sin buscar pendiente extrema~~                                |
+| ~~2~~  | ~~1h45-2h~~  | ~~350-450 m~~ | ~~Igual~~                                                                               |
+| ~~3~~  | ~~2h~~       | ~~450-550 m~~ | ~~Empieza a correr bajadas moderadas controladas~~                                      |
+| 4      | 2h30         | 600-700 m     | Busca un tramo de subida sostenida 8-10% durante 20-30 min seguidos (simula km 3-7)     |
+| 5      | 2h45-3h      | 700-800 m     | Añade una bajada de 12-15% practicada lenta y controlada + nutrición de carrera         |
+| 6      | 3h (cutback) | ~500 m        | Descarga, nada intenso                                                                  |
+| 7      | 3h30         | 900-1000 m    | Si es posible, rampa corta y muy dura (15-20%) simulando km22, y bajada técnica similar |
+| 8      | 4h (pico)    | 1100-1200 m   | Simulacro completo: subida larga + rampa dura + bajada técnica + mochila + nutrición    |
+| 9      | 3h           | 600-700 m     | Bajando volumen, mantener alguna bajada técnica corta                                   |
+| 10     | 1h-1h30      | suave         | Solo activación, cero bajadas duras                                                     |
 
 **Nota de seguridad:** no buscar replicar el 21.6% o el -19.6% de forma real hasta la semana 4-5, para dar tiempo al trabajo excéntrico de gym a preparar el tejido (rodilla/cuádriceps).
 
@@ -215,11 +215,11 @@ Fuente: caché SQLite local de Zepp y calendario de este plan. Coach Memory no e
 
 Las columnas de resistencia incluyen solo carrera y cinta; no incluyen escalada, actividad diaria ni sesiones no identificadas. Las duraciones están truncadas a minutos por el importador.
 
-| Semana | Resistencia registrada | Tiempo / distancia | Tirada larga prevista | Evidencia de tirada larga |
-| ------ | ---------------------- | ------------------ | --------------------- | ------------------------- |
-| S1, 14–20 sept | 1 carrera | 106 min / 15,03 km | 90 min, D+250–350 m | 19 sept: 106 min, D+36 m; cumple duración, no especificidad de montaña |
-| S2, 21–27 sept | 1 cinta + 1 carrera | 75 min / 9,37 km | 105–120 min, D+350–450 m | Sesión más larga: 39 min; no salida larga o brick verificable |
-| S3, 28 sept–4 oct | 2 cintas | 89 min / 9,37 km | 120 min, D+450–550 m | Sesión más larga: 52 min; no salida larga o brick verificable |
+| Semana            | Resistencia registrada | Tiempo / distancia | Tirada larga prevista    | Evidencia de tirada larga                                              |
+| ----------------- | ---------------------- | ------------------ | ------------------------ | ---------------------------------------------------------------------- |
+| S1, 14–20 sept    | 1 carrera              | 106 min / 15,03 km | 90 min, D+250–350 m      | 19 sept: 106 min, D+36 m; cumple duración, no especificidad de montaña |
+| S2, 21–27 sept    | 1 cinta + 1 carrera    | 75 min / 9,37 km   | 105–120 min, D+350–450 m | Sesión más larga: 39 min; no salida larga o brick verificable          |
+| S3, 28 sept–4 oct | 2 cintas               | 89 min / 9,37 km   | 120 min, D+450–550 m     | Sesión más larga: 52 min; no salida larga o brick verificable          |
 
 En cada semana hay además dos sesiones con código 52 (posible gimnasio, pendiente de confirmar). La escalada registrada fue 0 / 1 / 2 sesiones en S1 / S2 / S3; el 5 octubre hay otra sesión de 77 min. Ausencia de registro no equivale a sesión omitida.
 
