@@ -1,6 +1,6 @@
 # Valldigna Extrem 2026 — Informe de preparación
 
-_Última actualización: 13 sept 2026_
+1*Última actualización: 13 sept 2026*
 
 ## 1. La carrera
 
@@ -58,9 +58,11 @@ El track de referencia mide ~36.8 km con D+1.658 m / D-1.652 m (ligera diferenci
 
 ## 4. Periodización — 10 semanas (13 sept → 21 nov 2026)
 
+**Estado a 6 octubre:** semanas 1–3 transcurridas; semana 4 en curso. El tachado en las tablas indica semanas ya pasadas, no confirma la realización de los entrenamientos (ver §8).
+
 | Fase                    | Semanas | Objetivo                                                                                                 |
 | ----------------------- | ------- | -------------------------------------------------------------------------------------------------------- |
-| Base + prehab           | 1-3     | Reactivar volumen, introducir trabajo excéntrico y vertical en gym                                       |
+| ~~Base + prehab~~ | ~~1-3~~ | ~~Reactivar volumen, introducir trabajo excéntrico y vertical en gym~~ |
 | Construcción específica | 4-7     | Subir progresivamente la tirada larga (desnivel real), meter pendientes específicas del recorrido en gym |
 | Pico                    | 8       | Día largo más exigente: simulacro completo (subida + rampa dura + bajada técnica + mochila + nutrición)  |
 | Afinado                 | 9       | Bajar volumen, mantener algo de intensidad específica                                                    |
@@ -103,7 +105,7 @@ Objetivo: fuerza de pierna y, sobre todo, tolerancia excéntrica para las 3 baja
 
 | Semanas     | Step-down                     | Tempo bajada | Nota                                    |
 | ----------- | ----------------------------- | ------------ | --------------------------------------- |
-| 1-3 (base)  | Cajón 20 cm                   | 3 seg        | Base de tolerancia                      |
+| ~~1-3 (base)~~ | ~~Cajón 20 cm~~ | ~~3 seg~~ | ~~Base de tolerancia~~ |
 | 4-6 (build) | Cajón 25 cm                   | 4 seg        | Ya replica una bajada tipo -14% (km26)  |
 | 7-8 (pico)  | Cajón 25-30 cm + peso extra   | 4-5 seg      | Prepara específicamente km8/km34 (-19%) |
 | 9 (sharpen) | Mantener carga, bajar volumen | 4 seg        | No acumular fatiga nueva                |
@@ -146,7 +148,7 @@ Simula las subidas sostenidas del recorrido (km 3-7 al 8-9.5%, y la rampa de km 
 
 | Semanas     | Contenido                                                         | Pendiente                       | Objetivo                                          |
 | ----------- | ----------------------------------------------------------------- | ------------------------------- | ------------------------------------------------- |
-| 1-3 (base)  | 4x8 min caminando a 5-5.5 km/h, 2-3 min trote llano entre bloques | 10-12%                          | Adaptación general a subida sostenida             |
+| ~~1-3 (base)~~ | ~~4x8 min caminando a 5-5.5 km/h, 2-3 min trote llano entre bloques~~ | ~~10-12%~~ | ~~Adaptación general a subida sostenida~~ |
 | 4-6 (build) | Igual + 1 bloque final de 3 min                                   | Sube a 12-15%, bloque final 18% | Empieza a tocar la intensidad de la rampa de km22 |
 | 7-8 (pico)  | Bloques de 10 min a 12-15% + 2x3 min a 18-20%                     | Mixto                           | Simulación directa de km 18-24                    |
 | 9 (sharpen) | Mantener estructura, -20% volumen total                           | Igual que semana 6              | No acumular fatiga nueva                          |
@@ -160,9 +162,9 @@ Cuando el finde lo permita (no todos son posibles por vivir en el centro de Vale
 
 | Semana | Duración     | D+ aprox.   | Foco específico del perfil de carrera                                                   |
 | ------ | ------------ | ----------- | --------------------------------------------------------------------------------------- |
-| 1      | 1h30         | 250-350 m   | Subidas/bajadas suaves, sin buscar pendiente extrema                                    |
-| 2      | 1h45-2h      | 350-450 m   | Igual                                                                                   |
-| 3      | 2h           | 450-550 m   | Empieza a correr bajadas moderadas controladas                                          |
+| ~~1~~ | ~~1h30~~ | ~~250-350 m~~ | ~~Subidas/bajadas suaves, sin buscar pendiente extrema~~ |
+| ~~2~~ | ~~1h45-2h~~ | ~~350-450 m~~ | ~~Igual~~ |
+| ~~3~~ | ~~2h~~ | ~~450-550 m~~ | ~~Empieza a correr bajadas moderadas controladas~~ |
 | 4      | 2h30         | 600-700 m   | Busca un tramo de subida sostenida 8-10% durante 20-30 min seguidos (simula km 3-7)     |
 | 5      | 2h45-3h      | 700-800 m   | Añade una bajada de 12-15% practicada lenta y controlada + nutrición de carrera         |
 | 6      | 3h (cutback) | ~500 m      | Descarga, nada intenso                                                                  |
@@ -179,19 +181,20 @@ Esta sesión reúne el trabajo específico que antes estaba repartido entre los 
 
 | Bloque    | Ejercicio                                                                                                 | Dosis inicial      |
 | --------- | --------------------------------------------------------------------------------------------------------- | ------------------ |
+| Movilidad | Rodilla hacia la pared (knee-to-wall)                                                                     | 2x8 por lado       |
 | Movilidad | [Butterfly suave](https://www.youtube.com/watch?v=kE9r9kteF4M&t=217s)                                     | 30 s               |
 | Movilidad | [Pancake sin peso](https://www.youtube.com/watch?v=kE9r9kteF4M&t=233s)                                    | 30 s               |
 | Movilidad | [QL twist](https://www.youtube.com/watch?v=kE9r9kteF4M&t=233s)                                            | 30 s por lado      |
 | Movilidad | [Frog pose](https://www.youtube.com/watch?v=kE9r9kteF4M&t=233s)                                           | 30 s               |
 | Movilidad | [Supine pigeon](https://www.youtube.com/watch?v=kE9r9kteF4M&t=233s)                                       | 30 s por lado      |
 | Movilidad | [Cossack squat controlada](https://www.youtube.com/watch?v=kE9r9kteF4M&t=144s)                            | 5 por lado         |
+| Fuerza    | Abducción de cadera tumbado de lado                                                                       | 2x8-10 por lado    |
 | Core      | [Hollow hold](https://www.youtube.com/watch?v=qTfAwCOiYTM&t=70s)                                          | 2x15-20 s          |
 | Core      | [Plancha con remo con banda ligera](https://www.youtube.com/watch?v=qTfAwCOiYTM&t=125s)                   | 2x4-6 por lado     |
 | Core      | [Copenhagen plank regresado, rodilla apoyada](https://www.youtube.com/watch?v=qTfAwCOiYTM&t=218s)         | 2x10-15 s por lado |
 | Core      | [Star plank regresado en suelo, rodillas flexionadas](https://www.youtube.com/watch?v=qTfAwCOiYTM&t=277s) | 2x10-15 s por lado |
 
 La movilidad debe ser activa y controlada, sin dolor ni rebotes. La plancha con remo exige mantener las caderas cuadradas; reducir resistencia o apoyar rodillas antes que compensar. El viernes, si hay tirada larga exigente el fin de semana, hacer una sola serie de core y mantener la movilidad suave.
-
 **Progresión:** revisar cada 4-6 semanas. Primero aumentar control y tiempo; después, ampliar rango o añadir dificultad. El pancake lastrado, el single-leg good morning, el Copenhagen completo, el star plank extendido y el lever quedan fuera de esta fase inicial. El body-lift tampoco se añade todavía: solo cuando esta base sea sólida y no interfiera con la escalada.
 
 ## 7. Pendiente / próximos pasos
@@ -199,3 +202,43 @@ La movilidad debe ser activa y controlada, sin dolor ni rebotes. La plancha con 
 - Confirmar fines de semana disponibles para las tiradas largas y ajustar el calendario exacto.
 - Definir material y estrategia de nutrición para el simulacro de la semana 8 y para el día de carrera.
 - Actualizar este informe y `references/ATHLETE.md` a medida que haya datos nuevos del reloj o cambios de plan.
+
+## 8. Revisión de progreso — 6 octubre 2026
+
+### Datos y alcance
+
+Sincronización Zepp completada sin errores para el periodo 24 agosto–6 octubre: 32 registros de entrenamientos, 44 de sueño, 44 de actividad diaria y 45.519 registros de FC; sin nuevas mediciones corporales. Son registros procesados, no necesariamente nuevos. La semana actual y el día 6 todavía están incompletos. El calendario sitúa al atleta en **semana 4, construcción específica**, a 46 días de la carrera.
+
+Fuente: caché SQLite local de Zepp y calendario de este plan. Coach Memory no está disponible en esta sesión. No hay HRV, zonas de FC personales, detalle de ejercicios, pendiente de cinta, nutrición ni sensaciones actuales. Los códigos deportivos 52 y 54 no están identificados en el normalizador: no se consideran prueba de una rutina concreta de fuerza o de trabajo vertical.
+
+### Ejecución de las tres semanas completas
+
+Las columnas de resistencia incluyen solo carrera y cinta; no incluyen escalada, actividad diaria ni sesiones no identificadas. Las duraciones están truncadas a minutos por el importador.
+
+| Semana | Resistencia registrada | Tiempo / distancia | Tirada larga prevista | Evidencia de tirada larga |
+| ------ | ---------------------- | ------------------ | --------------------- | ------------------------- |
+| S1, 14–20 sept | 1 carrera | 106 min / 15,03 km | 90 min, D+250–350 m | 19 sept: 106 min, D+36 m; cumple duración, no especificidad de montaña |
+| S2, 21–27 sept | 1 cinta + 1 carrera | 75 min / 9,37 km | 105–120 min, D+350–450 m | Sesión más larga: 39 min; no salida larga o brick verificable |
+| S3, 28 sept–4 oct | 2 cintas | 89 min / 9,37 km | 120 min, D+450–550 m | Sesión más larga: 52 min; no salida larga o brick verificable |
+
+En cada semana hay además dos sesiones con código 52 (posible gimnasio, pendiente de confirmar). La escalada registrada fue 0 / 1 / 2 sesiones en S1 / S2 / S3; el 5 octubre hay otra sesión de 77 min. Ausencia de registro no equivale a sesión omitida.
+
+### Estado actual frente al objetivo
+
+- **Base de carrera útil, mejora fisiológica aún no demostrada.** El 19 septiembre se sostuvieron 15,03 km en 106 min (~7:03 min/km), con FC media 148. Es una evidencia de resistencia en llano, no una prueba de tolerancia a 40 km / D+1.800 m. El rodaje del 27 septiembre fue más rápido (~6:26 min/km, FC media 147), pero más corto y en condiciones no comparables: no permite afirmar mejora de forma.
+- **Cinta presente, vertical sin verificar.** El 23 septiembre: 36 min / 3,31 km, FC media 139; el 1 octubre: 37 min / 3,10 km, FC media 147. Son compatibles en duración con el bloque vertical, pero sin pendiente no se puede confirmar su ejecución. El 2 octubre: 52 min / 6,27 km, FC media 130; duración próxima al rodaje fácil previsto, aunque el ritmo fue ~8:18 min/km. Sin zonas personales ni RPE no se clasifica la intensidad con certeza.
+- **Principal retraso: montaña y descensos.** No consta salida larga con desnivel durante S1–S3. El antecedente del 29 agosto (161 min / 12 km / D+446 m) aporta experiencia, pero no sustituye exposición reciente y progresiva. La cinta no acredita tolerancia a bajadas técnicas, el punto crítico por el historial de cuádriceps y rodillas.
+- **Volumen de resistencia irregular.** 106 → 75 → 89 min semanales registrados, frente a dos sesiones entre semana más una salida larga o alternativa en el plan. Hay continuidad deportiva general, pero no una progresión sostenida de tiempo en pies. No se calcula carga fisiológica total ni ACWR sin identificar las demás sesiones y conocer su intensidad.
+- **Recuperación globalmente estable según el reloj.** Sueño medio S1 / S2 / S3: 7h52 / 8h41 / 8h44; FC de reposo media: 49,9 / 48,1 / 47,9 lpm. El 20 septiembre, tras el rodaje largo, aparecen 65 lpm y 6h15 de sueño, con vuelta a 46 lpm al día siguiente: señal puntual a contextualizar, no evidencia de fatiga persistente. El sueño del 4–6 octubre baja a unas 7h13–7h18. Sin HRV ni síntomas no se certifica recuperación completa.
+
+**Balance:** preparación aeróbica de base presente y recuperación aparentemente adecuada; preparación específica de Valldigna retrasada o no documentada. El objetivo de terminar sigue siendo plausible, condicionado a salud y trabajo específico en las próximas semanas. La previsión de 8–9 h no queda validada por estos registros.
+
+### Recomendación para 6–11 octubre (sin modificar el calendario)
+
+1. Confirmar primero dolor de rodilla/cuádriceps, fatiga y sesiones de montaña o brick no registradas. Si hubo trabajo reciente que cubre S2–S3, reevaluar antes de reducir la prescripción.
+2. Si los registros reflejan la carga real y no hay molestias: retomar una salida de **90–120 min, D+300–450 m**, a esfuerzo conversacional, caminando subidas y bajando de forma controlada. No saltar directamente a 2h30 / D+600–700 m ni recuperar sesiones perdidas. Detener o acortar si aparece dolor o cambia la marcha; valorar también la respuesta al día siguiente.
+3. Mantener un rodaje fácil de 40–50 min. En cinta, repetir una dosis previamente tolerada en vez de aumentar a la vez duración, velocidad y pendiente; no añadir automáticamente el bloque al 18% sin confirmar tolerancia. Registrar pendiente, duración y RPE.
+4. Mantener fuerza excéntrica y estabilidad con cargas toleradas; no subir automáticamente altura del cajón y peso por haber llegado a S4. Antes de la salida larga, reducir trabajo de pierna el viernes si deja agujetas o fatiga. Si persiste dolor, consultar a un profesional sanitario antes de progresar.
+5. Practicar mochila, calzado, navegación e ingesta en la salida; empezar con 30–45 g de carbohidratos/h si no hay práctica reciente, ajustando según tolerancia. Progresar posteriormente hacia la estrategia de carrera. Priorizar un día de descanso y sueño suficiente.
+
+Revisar después de esa salida: tiempo en pies, D+, RPE, dolor durante y al día siguiente, ingesta y recuperación. Usar esa evidencia para decidir la progresión de S5 y si el simulacro de S8 sigue siendo apropiado; no dar por completadas sesiones por coincidencia de fecha o duración.
