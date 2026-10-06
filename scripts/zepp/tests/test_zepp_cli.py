@@ -152,7 +152,19 @@ def test_sync_writes_all_supported_data_types_and_advances_cursors(cli, monkeypa
                                     "max_heart_rate": 171,
                                     "elevationGain": 220,
                                     "elevationLoss": 218,
-                                }
+                                },
+                                {
+                                    "trackid": "boulder-1",
+                                    "type": 184,
+                                    "sport_title": "Bouldering",
+                                    "start_time": 1704153600,
+                                    "run_time": 5340,
+                                    "dis": 0,
+                                    "calorie": 400,
+                                    "avg_heart_rate": 112,
+                                    "min_heart_rate": 70,
+                                    "max_heart_rate": 167,
+                                },
                             ]
                         }
                     }
@@ -194,14 +206,20 @@ def test_sync_writes_all_supported_data_types_and_advances_cursors(cli, monkeypa
         assert connection.execute("SELECT COUNT(*) FROM daily_activity").fetchone()[0] == 1
         assert connection.execute("SELECT COUNT(*) FROM sleep_sessions").fetchone()[0] == 1
         assert connection.execute("SELECT COUNT(*) FROM heart_rate_samples").fetchone()[0] == 2
-        assert connection.execute("SELECT COUNT(*) FROM workouts").fetchone()[0] == 1
+        assert connection.execute("SELECT COUNT(*) FROM workouts").fetchone()[0] == 2
         assert connection.execute("SELECT calories_kcal FROM workouts").fetchone()[0] == 350
         assert (
-            connection.execute("SELECT workout_name FROM workouts").fetchone()[0] == "Morning run"
+            connection.execute(
+                "SELECT workout_name FROM workouts WHERE workout_id = 'run-1'"
+            ).fetchone()[0]
+            == "Morning run"
         )
         assert connection.execute(
             "SELECT average_heart_rate_bpm, min_heart_rate_bpm, max_heart_rate_bpm, "
-            "elevation_gain_m, elevation_loss_m FROM workouts"
+            "elevation_gain_m, elevation_loss_m FROM workouts WHERE workout_id = 'run-1'"
         ).fetchone() == (142.0, 108.0, 171.0, 2.2, 2.18)
+        assert connection.execute(
+            "SELECT activity_type FROM workouts WHERE workout_id = 'boulder-1'"
+        ).fetchone()[0] == "bouldering"
         assert connection.execute("SELECT COUNT(*) FROM body_measurements").fetchone()[0] == 1
         assert connection.execute("SELECT COUNT(*) FROM sync_state").fetchone()[0] == 5

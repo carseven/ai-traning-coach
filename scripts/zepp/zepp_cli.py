@@ -550,6 +550,7 @@ def sync_workouts(
         "8": "treadmill",
         "9": "cycling",
         "14": "pool_swimming",
+        "184": "bouldering",
     }
     count = 0
     for item in summaries:
