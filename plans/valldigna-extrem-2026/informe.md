@@ -1,6 +1,6 @@
 # Valldigna Extrem 2026 — Informe de preparación
 
-1*Última actualización: 13 sept 2026*
+_Última actualización: 13 octubre 2026_
 
 ## 1. La carrera
 
@@ -26,7 +26,7 @@
 | 30    | Pla de Santoma                         | 14:00 - 18:00h                      |
 | 38/40 | Ajuntament de Tavernes de la Valldigna | 15:30h hasta el último participante |
 
-Ritmo medio permitido por el corte total: ~18 min/km incluyendo paradas — margen generoso dado el nivel de fondo del atleta (base de trekking). Objetivo realista: **8-9h**, con tramos corridos, sin ir al límite del corte.
+Ritmo medio permitido por el corte total: ~18 min/km incluyendo paradas. El corte más ajustado es el **primer control (km 10, 10:00h, 3 h tras la salida)**: exige ~10-11 min por km-esfuerzo (km + D+/100). Objetivo: **9-10 h** con tramos corridos y paradas totales ≤45 min. La cifra se confirma con la prueba de ritmo de la semana 5 (§10).
 
 ## 2. Perfil real del recorrido (calculado desde GPX, track 2025)
 
@@ -55,10 +55,11 @@ El track de referencia mide ~36.8 km con D+1.658 m / D-1.652 m (ligera diferenci
 - Estructura de entrenamiento actual: 3 días de fuerza/gimnasio, 1 día de escalada (deporte principal), 2 días de running.
 - Ritmo llano cómodo actual: ~7:00-7:30 min/km (RPE 4-5, registros de reloj sept 2026).
 - En terreno de montaña con mochila: ritmos de 15-30 min/km según desnivel (registro de trekking de 3 días, ago 2026).
+- Prueba de esfuerzo en cinta (12 oct 2026): FC máx. 188 lpm, umbral 169 lpm. Zonas de Karvonen aprobadas en `references/ATHLETE.md`.
 
 ## 4. Periodización — 10 semanas (13 sept → 21 nov 2026)
 
-**Estado a 6 octubre:** semanas 1–3 transcurridas; semana 4 en curso. El tachado en las tablas indica semanas ya pasadas, no confirma la realización de los entrenamientos (ver §8).
+**Estado a 13 octubre:** semanas 1–4 transcurridas; semana 5 en curso (ver §8 y §9). El tachado en las tablas indica semanas ya pasadas, no confirma la realización de los entrenamientos. Ver [informe detallado del 13 de octubre de 2026](reports/2026-10-13.md). Los ajustes del 13 de octubre (§10) modifican §5, §6.4 y §6.5.
 
 | Fase                    | Semanas | Objetivo                                                                                                 |
 | ----------------------- | ------- | -------------------------------------------------------------------------------------------------------- |
@@ -68,18 +69,33 @@ El track de referencia mide ~36.8 km con D+1.658 m / D-1.652 m (ligera diferenci
 | Afinado                 | 9       | Bajar volumen, mantener algo de intensidad específica                                                    |
 | Tapering                | 10      | Semana de carrera: -50% volumen, activación únicamente                                                   |
 
+**Calendario de semanas (lunes a domingo).** Estás en la **semana 5**.
+
+| Semana | Fechas        | Estado                                 |
+| ------ | ------------- | -------------------------------------- |
+| 1      | 14-20 sept    | Pasada                                 |
+| 2      | 21-27 sept    | Pasada                                 |
+| 3      | 28 sept-4 oct | Pasada                                 |
+| 4      | 5-11 oct      | Pasada                                 |
+| **5**  | **12-18 oct** | **En curso (hoy: martes 13 oct)**      |
+| 6      | 19-25 oct     | Descarga                               |
+| 7      | 26 oct-1 nov  | Pico de cinta (60 min) y salida de 4 h |
+| 8      | 2-8 nov       | Simulacro de 5-5,5 h                   |
+| 9      | 9-15 nov      | Afinado                                |
+| 10     | 16-22 nov     | Carrera el sábado 21 nov               |
+
 ## 5. Estructura semanal
 
 No se añaden días nuevos: se redirigen 2 de las 6 sesiones ya existentes hacia el objetivo de carrera.
 
-| Día                                | Sesión                                                                                                                                                                 |
-| ---------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Lunes                              | Escalada — deporte principal, sin cambios en volumen. Hacer el bloque matinal de movilidad/core (§6.6)                                                                 |
-| Martes                             | Fuerza 1 — Pierna + excéntrico (ver §6.1)                                                                                                                              |
-| Miércoles                          | Fuerza 2 — Torso (§6.2) + Running 1 — cinta/stepmill vertical (§6.4) + core/movilidad matinal (§6.6)                                                                   |
-| Jueves                             | Running 2 — Rodaje llano ciudad, 45-50 min continuos, 7:00-7:30 min/km, RPE 4-5 (~6.5-7 km). Recuperación activa entre el miércoles (vertical) y el viernes (fullbody) |
-| Viernes                            | Fuerza 3 — Fullbody + tobillo (§6.3) + core/movilidad matinal (§6.6)                                                                                                   |
-| Fin de semana (cuando sea posible) | Tirada larga con desnivel real (§6.5). Si solo hay un día libre, prioriza el domingo para más margen de recuperación tras el viernes                                   |
+| Día                                | Sesión                                                                                                                                                                                                                           |
+| ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Lunes                              | Escalada — deporte principal, sin cambios en volumen. Hacer el bloque matinal de movilidad/core (§6.6)                                                                                                                           |
+| Martes                             | Fuerza 1 — Pierna + excéntrico (ver §6.1)                                                                                                                                                                                        |
+| Miércoles                          | Fuerza 2 — Torso (§6.2) + Running 1 — cinta/stepmill vertical (§6.4) + core/movilidad matinal (§6.6)                                                                                                                             |
+| Jueves                             | Running 2 — Rodaje llano ciudad, 45-50 min continuos, FC 132-146 lpm (Z2), RPE 4-5. Probablemente 7:30-8:00 min/km; el ritmo de 7:00 dio FC media 148. Recuperación activa entre el miércoles (vertical) y el viernes (fullbody) |
+| Viernes                            | Fuerza 3 — Fullbody + tobillo (§6.3) + core/movilidad matinal (§6.6)                                                                                                                                                             |
+| Fin de semana (cuando sea posible) | Tirada larga con desnivel real (§6.5). Si solo hay un día libre, prioriza el domingo para más margen de recuperación tras el viernes                                                                                             |
 
 **Core/movilidad (15-20 min):** lunes, miércoles y viernes por la mañana, ver §6.6. Sustituye todo el core explícito del gimnasio y la rutina diaria anterior. El bloque empieza con dosis de principiante para favorecer la adherencia y evitar interferencia con escalada, running y fuerza.
 
@@ -103,13 +119,13 @@ Objetivo: fuerza de pierna y, sobre todo, tolerancia excéntrica para las 3 baja
 
 **Progresión por fase:**
 
-| Semanas        | Step-down                     | Tempo bajada | Nota                                    |
-| -------------- | ----------------------------- | ------------ | --------------------------------------- |
-| ~~1-3 (base)~~ | ~~Cajón 20 cm~~               | ~~3 seg~~    | ~~Base de tolerancia~~                  |
-| 4-6 (build)    | Cajón 25 cm                   | 4 seg        | Ya replica una bajada tipo -14% (km26)  |
-| 7-8 (pico)     | Cajón 25-30 cm + peso extra   | 4-5 seg      | Prepara específicamente km8/km34 (-19%) |
-| 9 (sharpen)    | Mantener carga, bajar volumen | 4 seg        | No acumular fatiga nueva                |
-| 10 (taper)     | Mantenimiento ligero          | 3 seg        | Cero agujetas nuevas antes de carrera   |
+| Semanas                  | Step-down                     | Tempo bajada | Nota                                    |
+| ------------------------ | ----------------------------- | ------------ | --------------------------------------- |
+| ~~1-3 (base)~~           | ~~Cajón 20 cm~~               | ~~3 seg~~    | ~~Base de tolerancia~~                  |
+| 4-6 (build, 5-25 oct)    | Cajón 25 cm                   | 4 seg        | Ya replica una bajada tipo -14% (km26)  |
+| 7-8 (pico, 26 oct-8 nov) | Cajón 25-30 cm + peso extra   | 4-5 seg      | Prepara específicamente km8/km34 (-19%) |
+| 9 (sharpen, 9-15 nov)    | Mantener carga, bajar volumen | 4 seg        | No acumular fatiga nueva                |
+| 10 (taper, 16-22 nov)    | Mantenimiento ligero          | 3 seg        | Cero agujetas nuevas antes de carrera   |
 
 Zancada búlgara y prensa unilateral siguen la misma progresión de carga (sube peso cada 2 semanas hasta semana 8, luego baja en 9-10).
 
@@ -146,32 +162,36 @@ Progresión de carga: sube peso/dificultad cada 2 semanas hasta semana 8 (pico),
 
 Simula las subidas sostenidas del recorrido (km 3-7 al 8-9.5%, y la rampa de km 22 al 21.6%).
 
-| Semanas        | Contenido                                                             | Pendiente                       | Objetivo                                          |
-| -------------- | --------------------------------------------------------------------- | ------------------------------- | ------------------------------------------------- |
-| ~~1-3 (base)~~ | ~~4x8 min caminando a 5-5.5 km/h, 2-3 min trote llano entre bloques~~ | ~~10-12%~~                      | ~~Adaptación general a subida sostenida~~         |
-| 4-6 (build)    | Igual + 1 bloque final de 3 min                                       | Sube a 12-15%, bloque final 18% | Empieza a tocar la intensidad de la rampa de km22 |
-| 7-8 (pico)     | Bloques de 10 min a 12-15% + 2x3 min a 18-20%                         | Mixto                           | Simulación directa de km 18-24                    |
-| 9 (sharpen)    | Mantener estructura, -20% volumen total                               | Igual que semana 6              | No acumular fatiga nueva                          |
-| 10 (taper)     | 20 min suave, sin bloques duros                                       | 8-10%                           | Solo activación                                   |
+Se prescribe por **FC**, no por velocidad. En la prueba del 12 oct, 5,5 km/h al 14% dio 173 lpm (por encima del umbral). Ajustar velocidad y pendiente para mantener 135-150 lpm. Referencia: ~4,0 km/h al 12-13% = ~510 m/h con FC 129-143 lpm.
 
-Total de sesión: 30-45 min según fase.
+| Semanas                 | Contenido                                                             | Pendiente / velocidad                                    | Objetivo                                                  |
+| ----------------------- | --------------------------------------------------------------------- | -------------------------------------------------------- | --------------------------------------------------------- |
+| ~~1-3 (base)~~          | ~~4x8 min caminando a 5-5.5 km/h, 2-3 min trote llano entre bloques~~ | ~~10-12%~~                                               | ~~Adaptación general a subida sostenida~~                 |
+| 5 (build, 12-18 oct)    | 45 min continuos, FC 135-150 lpm                                      | 12-13%, ~4,0 km/h (~+400 m)                              | Repetir la dosis tolerada del 12 oct sin subir FC         |
+| 6 (descarga, 19-25 oct) | 40 min continuos                                                      | Igual que semana 5, FC ≤145 lpm                          | Mantener sin añadir fatiga                                |
+| 7 (pico, 26 oct-1 nov)  | 60 min continuos; últimos 5 min al 15-16%                             | 12-13%, ~4,0 km/h (~+510 m); FC ≤150 lpm, final ≤160 lpm | Simula la subida de km 18-22 (+570 m), ~1 h seguida       |
+| 8 (pico, 2-8 nov)       | 45 min continuos                                                      | 12-13%, FC ≤150 lpm                                      | Mantener estímulo; el simulacro largo es el fin de semana |
+| 9 (sharpen, 9-15 nov)   | 35-40 min continuos                                                   | 12%, FC ≤145 lpm                                         | No acumular fatiga nueva                                  |
+| 10 (taper, 16-22 nov)   | 20 min suaves, sin bloques duros                                      | 8-10%                                                    | Solo activación                                           |
+
+Parar el bloque si la FC pasa de 160 lpm. Registrar pendiente, velocidad, duración y RPE. Total de sesión: 20-60 min según fase.
 
 ### 6.5 Tirada larga de fin de semana
 
 Cuando el finde lo permita (no todos son posibles por vivir en el centro de Valencia). Si no se puede salir, sustituir por el "brick" de gym: stepmill/incline + step-downs excéntricos + bici/remo, ajustando el tiempo total a la duración objetivo de la tabla.
 
-| Semana | Duración     | D+ aprox.     | Foco específico del perfil de carrera                                                   |
-| ------ | ------------ | ------------- | --------------------------------------------------------------------------------------- |
-| ~~1~~  | ~~1h30~~     | ~~250-350 m~~ | ~~Subidas/bajadas suaves, sin buscar pendiente extrema~~                                |
-| ~~2~~  | ~~1h45-2h~~  | ~~350-450 m~~ | ~~Igual~~                                                                               |
-| ~~3~~  | ~~2h~~       | ~~450-550 m~~ | ~~Empieza a correr bajadas moderadas controladas~~                                      |
-| 4      | 2h30         | 600-700 m     | Busca un tramo de subida sostenida 8-10% durante 20-30 min seguidos (simula km 3-7)     |
-| 5      | 2h45-3h      | 700-800 m     | Añade una bajada de 12-15% practicada lenta y controlada + nutrición de carrera         |
-| 6      | 3h (cutback) | ~500 m        | Descarga, nada intenso                                                                  |
-| 7      | 3h30         | 900-1000 m    | Si es posible, rampa corta y muy dura (15-20%) simulando km22, y bajada técnica similar |
-| 8      | 4h (pico)    | 1100-1200 m   | Simulacro completo: subida larga + rampa dura + bajada técnica + mochila + nutrición    |
-| 9      | 3h           | 600-700 m     | Bajando volumen, mantener alguna bajada técnica corta                                   |
-| 10     | 1h-1h30      | suave         | Solo activación, cero bajadas duras                                                     |
+| Semana         | Duración            | D+ aprox.                 | Foco específico del perfil de carrera                                                                                               |
+| -------------- | ------------------- | ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| ~~1~~          | ~~1h30~~            | ~~250-350 m~~             | ~~Subidas/bajadas suaves, sin buscar pendiente extrema~~                                                                            |
+| ~~2~~          | ~~1h45-2h~~         | ~~350-450 m~~             | ~~Igual~~                                                                                                                           |
+| ~~3~~          | ~~2h~~              | ~~450-550 m~~             | ~~Empieza a correr bajadas moderadas controladas~~                                                                                  |
+| ~~4~~          | ~~2h30~~            | ~~600-700 m~~             | ~~Subida sostenida 8-10%~~ (realizado: 3 días, 9 h 59 min en pies, D+1.510 m)                                                       |
+| 5 (dom 18 oct) | 3h, paradas ≤10 min | 700-800 m                 | **Prueba de ritmo** (§10): subida continua de 400-600 m a FC ≤146, objetivo ≥450 m/h y ≤10 min por km-esfuerzo. Nutrición 30-45 g/h |
+| 6 (dom 25 oct) | 2h30-3h (descarga)  | ~500 m                    | Descarga, FC ≤146, bajadas controladas                                                                                              |
+| 7 (dom 1 nov)  | 4h                  | 900-1000 m                | Rampa corta y dura (15-20%) tipo km22, bajada técnica, mochila de carrera, ≤10 min por km-esfuerzo, nutrición 40-60 g/h             |
+| 8 (dom 8 nov)  | 5h-5h30 (pico)      | 1300-1500 m (D− ≤1.500 m) | Simulacro: subida larga + rampa + bajada técnica + mochila + nutrición. Paradas ≤30 min. Un solo día, sin días consecutivos         |
+| 9 (dom 15 nov) | 2h30-3h             | 600-700 m                 | Bajando volumen, mantener alguna bajada técnica corta                                                                               |
+| 10 (16-17 nov) | 1h-1h30 (lun-mar)   | suave                     | Solo activación, cero bajadas duras. Carrera el sábado 21 nov                                                                       |
 
 **Nota de seguridad:** no buscar replicar el 21.6% o el -19.6% de forma real hasta la semana 4-5, para dar tiempo al trabajo excéntrico de gym a preparar el tejido (rodilla/cuádriceps).
 
@@ -242,3 +262,87 @@ En cada semana hay además dos sesiones con código 52 (posible gimnasio, pendie
 5. Practicar mochila, calzado, navegación e ingesta en la salida; empezar con 30–45 g de carbohidratos/h si no hay práctica reciente, ajustando según tolerancia. Progresar posteriormente hacia la estrategia de carrera. Priorizar un día de descanso y sueño suficiente.
 
 Revisar después de esa salida: tiempo en pies, D+, RPE, dolor durante y al día siguiente, ingesta y recuperación. Usar esa evidencia para decidir la progresión de S5 y si el simulacro de S8 sigue siendo apropiado; no dar por completadas sesiones por coincidencia de fecha o duración.
+
+## 9. Revisión automatizada de progreso y recuperación — 13 octubre 2026
+
+_Nota: Esta sección resume hallazgos automatizados y no altera las prescripciones ni la historia del plan. Ver el informe detallado en inglés en [informe diario del 13 de octubre de 2026](reports/2026-10-13.md)._
+
+### Datos y alcance
+
+Sincronización Zepp realizada el 13 de octubre de 2026 a las 09:12 CEST (tras la hora de observación de las 09:04 CEST). Se procesaron 10 entrenamientos y 9 días de actividad y sueño. La prueba incremental en cinta del 12 de octubre registró un pico de frecuencia cardíaca de 188 lpm. La mediana de FC de reposo en los últimos 28 días se sitúa en 48 lpm (rango 45–65 lpm). Los rangos por fórmula de reserva cardíaca (Karvonen) se presentan en el informe diario como **propuesta no aprobada** que requiere revisión previa a cualquier adopción en ATHLETE.md.
+
+### Ejecución de la Semana 4 (5–11 octubre) — Concluida
+
+- **Entre semana:** Escalada completada el lunes 5 (77 min). Sesión de gimnasio (código 52) completada el martes 6 (64 min). Doble sesión de gimnasio y cinta completada el miércoles 7 (cinta 40 min, 3,39 km). El rodaje llano del jueves 8 no consta registrado en el reloj.
+- **Fin de semana de montaña:** El viernes 9 se sustituyó el gimnasio por senderismo de montaña (2h 35m, D+375 m). Sumado a las salidas del sábado 10 (5h 36m, D+862 m) y domingo 11 (1h 48m, D+273 m), el atleta acumuló **9h 59m de tiempo en pies** y **+1.510 m / -1.486 m de desnivel**. Esto aporta volumen en terreno técnico y bajadas pronunciadas.
+
+### Estado en Semana 5 (12–18 octubre)
+
+- **Lunes 12:** Sustitución de escalada por test Bruce modificado en cinta (17 min, pico registrado de 188 lpm) y marcha posterior en cinta inclinada (44 min, 2,96 km, FC media 134 lpm).
+- **Martes 13 (hoy):** Fuerza 1 (Pierna + excéntrico) no vencida (_not due_) a la hora de observación matinal.
+- **Métricas de recuperación observadas:** FC de reposo matinal de 49 lpm (media de 7 días: 48,8 lpm). Sueño de 9h 37m tras la prueba del lunes. No se dispone de HRV ni de datos subjetivos de fatiga muscular o dolor para evaluar el estado fisiológico global.
+
+### Recomendaciones provisionales (pendientes de aprobación)
+
+1. Moderar la carga excéntrica en la sesión de Fuerza 1 de hoy (martes 13) a RPE 6–7 para no sobrecargar cuádriceps y tendones tras el esfuerzo del lunes.
+2. Realizar las subidas en cinta del miércoles 14 a ritmo aeróbico controlado, limitando la intensidad del bloque empinado final.
+3. Realizar la tirada de montaña del fin de semana en una única sesión el domingo 18 (2h45–3h, D+700–800 m) con nutrición pautada (30–45 g/h), manteniendo el sábado de descanso.
+
+## 10. Ajustes del plan — 13 octubre 2026 (prueba de esfuerzo y subida en cinta)
+
+### Qué mostraron los datos
+
+- **La capacidad aeróbica no limita.** En la cinta, 4,0 km/h al 12-13% (~+510 m/h) dio FC 129 → 143 lpm en 44 min, Z1-Z2, justo tras la prueba máxima. A 5,5 km/h al 14% la FC fue 173 lpm, sobre el umbral (169).
+- **El ritmo de campo del 10 oct no mide la capacidad.** 4 h 36 min en movimiento, FC media 113 lpm, ≈12,4 min por km-esfuerzo. Fue una ruta a ritmo lento con la pareja y paradas para comer y hacer fotos, no por fatiga. Con ese ritmo la carrera (53-58 km-esfuerzo) llevaría 11-12 h. La prueba del 18 oct es la primera medida real.
+- **Zonas de FC de la cinta.** Los tiempos por zona del reloj para la caminata del 12 oct no coinciden con las muestras de FC. Se usan las muestras.
+- **Limitación.** Falta información subjetiva (dolor de rodilla o cuádriceps tras el bloque de 3 días). Si hay molestia, se reduce la carga antes de aplicar el plan.
+
+### Cortes y ritmo necesario
+
+Valores aproximados, con el perfil GPX de 2025. El km oficial puede diferir.
+
+| Control               | Corte | Tiempo desde salida | Km-esfuerzo acumulados | Ritmo máximo (min/km-esf.) |
+| --------------------- | ----- | ------------------- | ---------------------- | -------------------------- |
+| Font del Barber km 10 | 10:00 | 3 h                 | ~17                    | ~10,6                      |
+| Simat km 19           | 12:30 | 5,5 h               | ~27                    | ~12,2                      |
+| Font del Cirer km 22  | 15:00 | 8 h                 | ~35                    | ~13,9                      |
+| Pla de Santoma km 30  | 18:00 | 11 h                | ~45                    | ~14,8                      |
+| Meta                  | 19:00 | 12 h                | 53-58                  | 12,4-13,5                  |
+
+El primer control es el más exigente. Con el modelo de la cinta (ascenso Z2 de ~500 m/h) se llega en 2 h 25 min - 2 h 40 min. Con el ritmo de campo del 10 oct se llegaría en ~3 h 30 min.
+
+### Reglas de ritmo para la carrera
+
+- Subidas: FC ≤146 lpm. En la rampa de km 22, FC ≤160 lpm y acortar el paso antes de superarla.
+- Llano y bajadas suaves: trotar con FC ≤146 lpm. Caminar si la FC pasa de 150 lpm.
+- Bajadas técnicas (km 8, 26, 34): controlar, no recuperar tiempo. Prioridad: rodillas y cuádriceps.
+- Paradas: ≤45 min en total. Comer caminando. Fotos y comida larga, después del km 22.
+
+### Prueba de ritmo (domingo 18 oct, semana 5)
+
+- Duración 3 h, paradas totales ≤10 min, D+700-800 m, FC ≤146 lpm en subida. Hacerla solo, con bastones y mochila de carrera, y con las zapatillas de la carrera.
+- Medir el ascenso continuo más largo (400-600 m): objetivo ≥450 m/h.
+- Medir ritmo global: objetivo ≥18 km-esfuerzo en 3 h (≤10 min por km-esfuerzo). Referencia: 12,4 el 10 oct.
+- Parar o bajar el ritmo si hay dolor de rodilla o cuádriceps, o si la FC pasa de 150 lpm de forma sostenida.
+- Resultado:
+  - Cumple (≥450 m/h y ≤10 min por km-esfuerzo): se mantiene el objetivo de 9-10 h.
+  - Parcial (350-450 m/h): el objetivo pasa a 10-11 h y se prioriza el ritmo en subida en las semanas 6-7.
+  - No cumple (<350 m/h): el objetivo pasa a "terminar antes del corte"; se revisan la técnica de bastones y el ritmo.
+  - Si hay dolor de rodilla o la FC supera 150 lpm de forma sostenida, se detiene la prueba y no se aplican los umbrales.
+
+### Otros ajustes
+
+- **Carga de bajada:** no superar D−1.500 m por semana. La semana 4 acumuló D−1.486 m en 3 días.
+- **Simulacro de la semana 8:** 5-5,5 h con D+1.300-1.500 m, en un solo día. Salir con frontal en la parte inicial.
+- **Semana 5 entre semana:** martes con fuerza a RPE 6-7. Miércoles con cinta de 45 min a 12-13%, FC 135-150 lpm.
+- **Rodillas (13 oct):** molestia de 2/10; se mantiene el plan. Fuerza 1 del 13 oct a RPE 6-7. Si sube a ≥3, se baja la carga de bajada.
+
+### Decisiones acordadas con el atleta — 13 octubre 2026
+
+- **Objetivo:** terminar en 9-10 h, sujeto a los umbrales de la prueba del 18 oct.
+- **Escalada:** se mantiene el lunes. La sesión del 12 oct, sustituida por la prueba, no se recupera. Si queda libre un día de la semana 5, se usa como descanso el sábado 17.
+- **Fin de semana:** un solo día largo, el domingo, y descanso el sábado en las semanas 5, 6 y 8. Semana 7: sábado suave de 1 h 30-2 h, con D− ≤1.500 m por semana.
+- **Bastones (permitidos por el reglamento):** poca experiencia previa. Practicar 15-20 min de paseo urbano el jueves 15. En la prueba del 18 oct, dedicar los primeros 15 min a la técnica en terreno fácil. Preferir bastones plegables y tenerlos antes del viernes 16.
+- **Nutrición:** comida real como base, con 40-60 g/h de carbohidrato. Pesar la comida antes y después de la prueba y anotar lo comido por hora. Un gel de respaldo para el último tercio de la carrera.
+- **Material:** frontal con pila de repuesto. Mismas zapatillas en la prueba y en la carrera. Zapatillas, mochila y reloj sin confirmar.
+- **Pendiente tras la prueba:** tiempos objetivo por control, reglas de bajada con bastones y cifras definitivas de nutrición para las semanas 7-8.

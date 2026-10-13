@@ -13,7 +13,7 @@ _Datos biométricos, médicos y logísticos que definen el contexto vital del at
 
 _Condiciones activas que afectan al entrenamiento, y lesiones pasadas relevantes para prevención._
 
-- **Condiciones actuales:** Sin molestia activa a día de hoy (13 sept 2026).
+- **Condiciones actuales:** Molestia leve de 2/10 en rodilla/cuádriceps, ubicación sin precisar (13 oct 2026). Se mantiene el plan; si sube a ≥3, se baja la carga de bajada.
 - **Historial de lesiones:** Lesión de cuádriceps en agosto 2026 (recuperado). Rodillas propensas a molestias de forma recurrente — vigilar volumen de bajada/impacto y priorizar trabajo excéntrico y de estabilidad.
 
 ### Disponibilidad y Horario
@@ -38,24 +38,45 @@ _Perfil atlético, historial, capacidades fisiológicas y herramientas disponibl
 
 _Valores fisiológicos medidos o estimados. Fuente y fecha entre paréntesis._
 
-- VO2max
-- Umbral de Lactato: bpm | ritmo
-- FC máxima (medida o estimada)
+- **VO2max:** ~50 ml/kg/min (rango 49-51), estimación (prueba Bruce modificada 12 oct 2026 y reloj: 51)
+- **Umbral de Lactato:** 169 bpm | 5:16 min/km (estimado por el reloj, 13 oct 2026)
+- **FC máxima:** 188 bpm, medida (pico en prueba Bruce, 12 oct 2026; el reloj marcó 192)
+
+#### Pruebas de rendimiento
+
+- **12 oct 2026 — Bruce modificado en cinta** (entreno Zepp 1791822483): etapa inicial 5% (3 min) y después protocolo Bruce estándar. Terminó con 1 min 30 s de la etapa 5 (16%), 14,5 min en total.
+
+| Etapa | Inclinación | Tiempo (min) | Completado | FC media | FC máx |
+| ----- | ----------- | ------------ | ---------- | -------- | ------ |
+| 1     | 5%          | 1,0-4,0      | 3 min      | 87       | 95     |
+| 2     | 10%         | 4,0-7,0      | 3 min      | 101      | 110    |
+| 3     | 12%         | 7,0-10,0     | 3 min      | 134      | 153    |
+| 4     | 14%         | 10,0-13,0    | 3 min      | 173      | 183    |
+| 5     | 16%         | 13,0-14,5    | 1 min 30 s | 182      | 188    |
+
+| Método VO2max                     | ml/kg/min |
+| --------------------------------- | --------- |
+| Bruce, sin contar la etapa del 5% | 36        |
+| Bruce, contando la etapa del 5%   | 49        |
+| ACSM (velocidades del protocolo)  | 41        |
+| Reloj                             | 51        |
+
+- **12 oct 2026 — Subida en cinta tras la prueba** (entreno Zepp 1791823598): 44 min a 4,0 km/h, ~+510 m/h, FC 129 → 143 lpm (media 134). Referencia de ascenso Z1-Z2.
 
 ### Zonas y Umbrales
 
 _Referencias de intensidad. Especificar origen: FC max, LTHR, o reserva cardíaca. La fuente de verdad principal suele ser la configuración del dispositivo._
 
-- **Modelo de zonas:** Basado en [FC max / LTHR / Reserva]
+- **Modelo de zonas:** Basado en reserva cardíaca (Karvonen: FCrep 48 y FCmáx 188, reserva 140 bpm; 12 oct 2026)
 - **Zonas de FC:**
-  - Z1: (Recuperación activa)
-  - Z2: (Base aeróbica)
-  - Z3: (Tempo)
-  - Z4: (Umbral)
-  - Z5: (VO2max)
+  - Z1: 118-132 bpm (Recuperación activa)
+  - Z2: 132-146 bpm (Base aeróbica)
+  - Z3: 146-160 bpm (Tempo)
+  - Z4: 160-174 bpm (Umbral; porcentajes de Karvonen, umbral de lactato del reloj en 169 bpm)
+  - Z5: 174-188 bpm (VO2max)
 - **Ritmos de referencia:**
   - Z2 (Rodaje suave):
-  - Z4 (Calidad):
+  - Z4 (Calidad): ~5:16 min/km (ritmo de umbral del reloj)
 
 ### Distribución de Intensidad
 
@@ -77,7 +98,7 @@ _Métricas complementarias a FC que el atleta usa o tiene disponibles._
 _Valores de referencia en estado normal. Necesarios para detectar desviaciones (metodología §5)._
 
 - **HRV:** RMSSD baseline, CV típico
-- **RHR:** Baseline (bpm)
+- **RHR:** Baseline 48 bpm (media 30 días, rango 45-50; Zepp, 13 oct 2026)
 - **Sueño:** Patrón típico (horas, horario, calidad habitual)
 
 ### Equipamiento
@@ -143,7 +164,7 @@ _Tolerancias y estrategia nutricional relevante para el entrenamiento. Ver metod
 
 - **Train-low:** ¿Tolerancia a entrenar con baja disponibilidad de CHO?
 - **Sensibilidades GI:** Alimentos/productos que no tolera
-- **Fueling en carrera:** Experiencia, productos probados, gramos/hora tolerados
+- **Fueling en carrera:** Prefiere comida real (13 oct 2026). Objetivo 40-60 g/h de carbohidrato, con un gel de respaldo. Gramos/hora tolerados sin medir: pesar la comida en la prueba del 18 oct.
 - **Gut training:** ¿Lo practica? ¿Desde cuándo?
 
 ### Exportación
@@ -159,19 +180,20 @@ _Reglas para exportar planes a calendario y dispositivo._
 
 _Contexto vivo del estado físico/mental actual y foco del microciclo presente. Actualizar frecuentemente._
 
-- **Última actualización:** 16 sept 2026
-- **Fase:** Base + prehab (semana 1 de 10)
+- **Última actualización:** 13 oct 2026
+- **Fase:** Construcción específica (semana 5 de 10, Valldigna Extrem el 21 nov)
 
 ### Volumen Actual
 
 _Carga semanal actual y estructura típica._
 
-- **Volumen:** km/semana (o TOF para trail)
+- **Volumen:** TOF semana 4 (5-11 oct): ~10 h en 3 días de montaña, D+1.510 m / D-1.486 m
 - **Estructura:** Sesiones/semana y distribución (ej: 3 running + 2 fuerza)
 
 ### Foco Actual
 
-- [Objetivo principal del bloque/semana en curso]
+- Validar el ritmo de campo con una prueba el 18 oct (ver `plans/valldigna-extrem-2026/informe.md` §10): primer corte de la carrera a 3 h del inicio. Prueba sola, con bastones y mochila. Objetivo de carrera: 9-10 h.
+- Bastones: poca experiencia (13 oct 2026). Practicar el jueves 15 y al inicio de la prueba.
 
 ### Estado de Forma (Métricas)
 
@@ -184,3 +206,4 @@ _Issues detectados, patrones de comportamiento, señales positivas. Registro viv
 - (13 sept 2026) Perfil real de la Valldigna Extrem analizado desde GPX (track 2025, ~36.8 km, D+1.658 m / D-1.652 m — el reglamento indica 40 km/1.800 m, puede variar ligeramente en la edición 2026). Dos subidas fuertes sostenidas (km 3-7 y km 18-24, 8-9.5% con rampa de 21.6% en km 22) y tres bajadas muy técnicas (km 8: -19.6%, km 26: -14.5%, km 34: -18.9%) — estas últimas son las zonas de mayor riesgo para cuádriceps/rodilla y donde más rentable es el trabajo excéntrico.
 - (16 sept 2026) Sesión intensa el día previo dejó al atleta con sensación de debilidad; se saltó el bloque de cinta/stepmill vertical del miércoles (fuerza de torso sí completada). Sueño de la noche del 15-16 sept normal (~8h17, 497 min). Se reprograma el trabajo vertical pendiente al jueves, fusionado con el rodaje llano (ver plan del 17 sept), reduciendo pendiente/volumen respecto a la prescripción estándar de semana 1 para no acumular fatiga.
 - (16 sept 2026) Añadido objetivo B post-Valldigna Extrem: Trail Les Creus, 2 feb 2027, Tavernes de la Valldigna (~22 km / ~1.250 m D+, terreno muy pedregoso/técnico según Wikiloc — reglamento 2027 aún sin confirmar oficialmente). Ver informe completo en `plans/les-creus-2027/informe.md`: bloque de 10 semanas entre carreras (recuperación → rebase → construcción específica → pico → taper), reutilizando las mismas rutinas de fuerza/excéntrico de la Valldigna Extrem por compartir patrón de riesgo (rodilla/cuádriceps en bajada técnica).
+- (13 oct 2026) Salida de montaña del 10 oct: 5 h 36 min con 1 h de paradas, D+862 m, FC media 113 lpm, RPE 7. Ritmo en movimiento ≈12,4 min por km-esfuerzo, más lento que la capacidad medida en cinta (~+510 m/h en Z1-Z2). Fue una ruta lenta con la pareja y paradas para comer y hacer fotos, no por fatiga: no mide la capacidad real. El primer corte de la Valldigna (km 10, 3 h) exige ~10,6 min por km-esfuerzo. Ver `plans/valldigna-extrem-2026/informe.md` §10.

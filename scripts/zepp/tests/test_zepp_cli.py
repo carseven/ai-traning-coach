@@ -120,6 +120,18 @@ def test_sync_writes_all_supported_data_types_and_advances_cursors(cli, monkeypa
             return None
 
         def get(self, url, params):
+            if "run/detail" in url:
+                assert params["trackid"] == "run-1"
+                assert params["source"] == "run.1.huami.com"
+                return Response(
+                    {
+                        "data": {
+                            "heart_rate": "2,80;,2;1,-1",
+                            "speed": "0,1.5;1,2.0;1,2.5",
+                            "currentDistance": "0,0;1,150;1,350",
+                        }
+                    }
+                )
             if "weightRecords" in url:
                 return Response(
                     {
@@ -152,6 +164,13 @@ def test_sync_writes_all_supported_data_types_and_advances_cursors(cli, monkeypa
                                     "max_heart_rate": 171,
                                     "elevationGain": 220,
                                     "elevationLoss": 218,
+                                    "source": "run.1.huami.com",
+                                    "avg_pace": "0.36",
+                                    "avg_frequency": "160.0",
+                                    "rpe": 5,
+                                    "exercise_load": 45,
+                                    "heart_range": "60,95;1740,114",
+                                    "exerciseTimeWithMillis": 1800500,
                                 },
                                 {
                                     "trackid": "boulder-1",
@@ -223,3 +242,81 @@ def test_sync_writes_all_supported_data_types_and_advances_cursors(cli, monkeypa
         ).fetchone()[0] == "bouldering"
         assert connection.execute("SELECT COUNT(*) FROM body_measurements").fetchone()[0] == 1
         assert connection.execute("SELECT COUNT(*) FROM sync_state").fetchone()[0] == 5
+        assert connection.execute(
+            "SELECT offset_s, heart_rate_bpm, speed_mps, distance_m FROM workout_samples "
+            "WHERE workout_id = 'run-1' ORDER BY offset_s"
+        ).fetchall() == [
+            (0, None, 1.5, 0.0),
+            (1, None, 2.0, 1.5),
+            (2, 80, 2.5, 3.5),
+            (3, 82, None, None),
+            (4, 81, None, None),
+        ]
+        assert connection.execute(
+            "SELECT duration_seconds, average_pace_s_per_km, average_cadence_spm, rpe, "
+            "exercise_load, heart_zone_seconds, detail_synced_at IS NOT NULL "
+            "FROM workouts WHERE workout_id = 'run-1'"
+        ).fetchone() == (
+            1800.5,
+            360.0,
+            160.0,
+            5.0,
+            45.0,
+            '[{"from_bpm": 95, "seconds": 60}, {"from_bpm": 114, "seconds": 1740}]',
+            1,
+        )
+        assert json.loads(
+            connection.execute(
+                "SELECT payload_json FROM raw_records "
+                "WHERE data_type = 'workout_detail' AND source_record_id = 'run-1'"
+            ).fetchone()[0]
+        )["speed"] == "0,1.5;1,2.0;1,2.5"
+
+
+def test_decode_series_handles_blank_gaps_and_deltas(cli):
+    assert cli.decode_series("21,82;,-1;2,3;0,1", absolute=False) == [
+        (21, 82.0),
+        (22, 81.0),
+        (24, 84.0),
+        (24, 85.0),
+    ]
+    assert cli.decode_series("0,0.5;,0.7;2,0.0", absolute=True) == [
+        (0, 0.5),
+        (1, 0.7),
+        (3, 0.0),
+    ]
+    assert cli.decode_series("", absolute=True) == []
+
+
+def test_bruce_stages_summarize_three_minute_blocks(cli, capsys):
+    database = cli.database_path()
+    cli.initialize_database(database)
+    with cli.sqlite3.connect(database) as connection:
+        connection.execute(
+            "INSERT INTO workouts (user_id, workout_id, local_date, activity_type, start_at, "
+            "duration_minutes) VALUES ('42', 'w1', '2026-10-12', 'treadmill', "
+            "'2026-10-12T16:28:03+00:00', 7)"
+        )
+        connection.executemany(
+            "INSERT INTO workout_samples VALUES ('42', 'w1', ?, ?, ?, ?)",
+            [(second, 100 + second // 10, 1.0, float(second)) for second in range(30, 420)],
+        )
+
+    exit_code = cli.main(["bruce-stages", "w1", "--json"])
+
+    assert exit_code == 0
+    payload = json.loads(capsys.readouterr().out)
+    assert payload["start_min"] == 0.5
+    first, second, third = payload["stages"]
+    assert (first["incline_pct"], first["start_min"], first["complete"]) == (5, 0.5, True)
+    assert first["max_heart_rate_bpm"] == 120
+    assert first["distance_m"] == 209.0
+    assert (second["incline_pct"], second["complete"]) == (10, True)
+    assert (third["incline_pct"], third["complete"]) == (12, False)
+    assert len(payload["stages"]) == 3
+    assert [stage["completed_min"] for stage in payload["stages"]] == [3.0, 3.0, 0.48]
+
+    assert cli.main(["bruce-stages", "w1", "--end-offset-minutes", "5", "--json"]) == 0
+    stopped = json.loads(capsys.readouterr().out)["stages"]
+    assert [stage["completed_min"] for stage in stopped] == [3.0, 1.5]
+    assert [stage["complete"] for stage in stopped] == [True, False]

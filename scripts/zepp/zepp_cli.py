@@ -29,6 +29,18 @@ DATA_TYPES = ("daily_activity", "sleep", "heart_rate", "workouts", "body_measure
 API_BASE = "https://api-mifit.huami.com"
 WEIGHT_API_BASE = "https://api-mifit.zepp.com"
 SYNC_OVERLAP_DAYS = 7
+BRUCE_STAGE_SECONDS = 180
+# (incline %, speed mph): stage 0 is the modified-Bruce 5% opener, then standard Bruce.
+BRUCE_STAGES = (
+    (5, 1.7),
+    (10, 1.7),
+    (12, 2.5),
+    (14, 3.4),
+    (16, 4.2),
+    (18, 5.0),
+    (20, 5.5),
+    (22, 6.0),
+)
 
 
 class CliError(Exception):
@@ -169,6 +181,7 @@ def initialize_database(path: Path) -> None:
                 data_type TEXT NOT NULL,
                 source_record_id TEXT NOT NULL,
                 payload_hash TEXT NOT NULL,
+                payload_json TEXT,
                 received_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
                 PRIMARY KEY (source_type, user_id, data_type, source_record_id)
             );
@@ -212,7 +225,40 @@ def initialize_database(path: Path) -> None:
                 max_heart_rate_bpm REAL,
                 elevation_gain_m REAL,
                 elevation_loss_m REAL,
+                duration_seconds REAL,
+                average_pace_s_per_km REAL,
+                average_cadence_spm REAL,
+                rpe REAL,
+                exercise_load REAL,
+                heart_zone_seconds TEXT,
+                detail_synced_at TEXT,
                 PRIMARY KEY (user_id, workout_id)
+            );
+            CREATE TABLE IF NOT EXISTS workout_samples (
+                user_id TEXT NOT NULL,
+                workout_id TEXT NOT NULL,
+                offset_s INTEGER NOT NULL,
+                heart_rate_bpm INTEGER,
+                speed_mps REAL,
+                distance_m REAL,
+                PRIMARY KEY (user_id, workout_id, offset_s)
+            );
+            CREATE TABLE IF NOT EXISTS workout_stages (
+                user_id TEXT NOT NULL,
+                workout_id TEXT NOT NULL,
+                protocol TEXT NOT NULL,
+                stage_index INTEGER NOT NULL,
+                incline_pct REAL NOT NULL,
+                protocol_speed_mph REAL NOT NULL,
+                start_offset_s INTEGER NOT NULL,
+                end_offset_s INTEGER NOT NULL,
+                complete INTEGER NOT NULL,
+                average_heart_rate_bpm REAL,
+                max_heart_rate_bpm INTEGER,
+                end_heart_rate_bpm INTEGER,
+                distance_m REAL,
+                completed_seconds INTEGER,
+                PRIMARY KEY (user_id, workout_id, protocol, stage_index)
             );
             CREATE TABLE IF NOT EXISTS body_measurements (
                 user_id TEXT NOT NULL,
@@ -234,11 +280,24 @@ def initialize_database(path: Path) -> None:
             "max_heart_rate_bpm": "REAL",
             "elevation_gain_m": "REAL",
             "elevation_loss_m": "REAL",
+            "duration_seconds": "REAL",
+            "average_pace_s_per_km": "REAL",
+            "average_cadence_spm": "REAL",
+            "rpe": "REAL",
+            "exercise_load": "REAL",
+            "heart_zone_seconds": "TEXT",
+            "detail_synced_at": "TEXT",
         }
         for column, column_type in workout_columns.items():
             if column not in columns:
                 connection.execute(f"ALTER TABLE workouts ADD COLUMN {column} {column_type}")
-        connection.execute("PRAGMA user_version = 5")
+        raw_columns = {row[1] for row in connection.execute("PRAGMA table_info(raw_records)")}
+        if "payload_json" not in raw_columns:
+            connection.execute("ALTER TABLE raw_records ADD COLUMN payload_json TEXT")
+        stage_columns = {row[1] for row in connection.execute("PRAGMA table_info(workout_stages)")}
+        if "completed_seconds" not in stage_columns:
+            connection.execute("ALTER TABLE workout_stages ADD COLUMN completed_seconds INTEGER")
+        connection.execute("PRAGMA user_version = 7")
 
 
 def cache_coverage(database: Path) -> dict[str, int]:
@@ -402,15 +461,18 @@ def update_sync_state(
 def record_raw(
     connection: sqlite3.Connection, user_id: str, data_type: str, record_id: str, item: Any
 ) -> None:
-    payload_hash = hashlib.sha256(json.dumps(item, sort_keys=True).encode()).hexdigest()
+    payload_json = json.dumps(item, sort_keys=True)
+    payload_hash = hashlib.sha256(payload_json.encode()).hexdigest()
     connection.execute(
         """
-        INSERT INTO raw_records (source_type, user_id, data_type, source_record_id, payload_hash)
-        VALUES (?, ?, ?, ?, ?)
+        INSERT INTO raw_records (
+            source_type, user_id, data_type, source_record_id, payload_hash, payload_json
+        ) VALUES (?, ?, ?, ?, ?, ?)
         ON CONFLICT(source_type, user_id, data_type, source_record_id)
-        DO UPDATE SET payload_hash = excluded.payload_hash, received_at = CURRENT_TIMESTAMP
+        DO UPDATE SET payload_hash = excluded.payload_hash,
+            payload_json = excluded.payload_json, received_at = CURRENT_TIMESTAMP
         """,
-        ("cloud_session", user_id, data_type, record_id, payload_hash),
+        ("cloud_session", user_id, data_type, record_id, payload_hash, payload_json),
     )
 
 
@@ -519,6 +581,81 @@ def sync_heart_rate_detail(
     return count
 
 
+def decode_series(raw: Any, absolute: bool) -> list[tuple[int, float]]:
+    """Decode Zepp 'gap,value;...' series. A blank gap means 1 second."""
+    if not isinstance(raw, str):
+        return []
+    offset = 0
+    value = 0.0
+    points: list[tuple[int, float]] = []
+    for index, entry in enumerate(raw.split(";")):
+        gap, _, number = entry.partition(",")
+        if not number:
+            continue
+        offset += int(gap) if gap else 1
+        parsed = float(number)
+        value = parsed if absolute or index == 0 else value + parsed
+        points.append((offset, value))
+    return points
+
+
+def decode_workout_samples(
+    detail: dict[str, Any],
+) -> list[tuple[int, int | None, float | None, float | None]]:
+    heart_rate = dict(decode_series(detail.get("heart_rate"), absolute=False))
+    speed = dict(decode_series(detail.get("speed"), absolute=True))
+    distance_cm = dict(decode_series(detail.get("currentDistance"), absolute=True))
+    samples = []
+    for offset in sorted(set(heart_rate) | set(speed) | set(distance_cm)):
+        bpm = heart_rate.get(offset)
+        valid_bpm = int(bpm) if bpm is not None and 30 <= bpm <= 240 else None
+        distance = distance_cm.get(offset)
+        samples.append(
+            (offset, valid_bpm, speed.get(offset), distance / 100 if distance is not None else None)
+        )
+    return samples
+
+
+def parse_heart_zones(raw: Any) -> str | None:
+    if not isinstance(raw, str) or not raw:
+        return None
+    zones = []
+    for entry in raw.split(";"):
+        seconds, _, threshold = entry.partition(",")
+        if seconds and threshold:
+            zones.append({"from_bpm": int(threshold), "seconds": int(seconds)})
+    return json.dumps(zones) if zones else None
+
+
+def sync_workout_detail(
+    connection: sqlite3.Connection,
+    client: httpx.Client,
+    user_id: str,
+    workout_id: str,
+    source: str,
+) -> int:
+    payload = request_json(
+        client,
+        f"{API_BASE}/v1/sport/run/detail.json",
+        {"trackid": workout_id, "source": source},
+    )
+    detail = payload.get("data")
+    if not isinstance(detail, dict):
+        raise CliError("Zepp returned invalid workout detail.")
+    samples = decode_workout_samples(detail)
+    connection.executemany(
+        "INSERT OR REPLACE INTO workout_samples VALUES (?, ?, ?, ?, ?, ?)",
+        [(user_id, workout_id, *sample) for sample in samples],
+    )
+    connection.execute(
+        "UPDATE workouts SET detail_synced_at = CURRENT_TIMESTAMP "
+        "WHERE user_id = ? AND workout_id = ?",
+        (user_id, workout_id),
+    )
+    record_raw(connection, user_id, "workout_detail", workout_id, detail)
+    return len(samples)
+
+
 def sync_workouts(
     connection: sqlite3.Connection, client: httpx.Client, user_id: str, start: str, end: str
 ) -> int:
@@ -527,9 +664,7 @@ def sync_workouts(
         date.fromisoformat(end) + timedelta(days=1), datetime.min.time(), UTC
     )
     start_timestamp = int(start_datetime.timestamp())
-    end_timestamp = int(
-        end_datetime.timestamp()
-    )
+    end_timestamp = int(end_datetime.timestamp())
     payload = request_json(
         client,
         f"{API_BASE}/v1/sport/run/history.json",
@@ -609,12 +744,33 @@ def sync_workouts(
                         ("elevationGain", "altitude_ascend", "cumulativeMountainClimbing"),
                     )
                 ),
-                centimeters_to_meters(
-                    first_present(item, ("elevationLoss", "altitude_descend"))
-                ),
+                centimeters_to_meters(first_present(item, ("elevationLoss", "altitude_descend"))),
             ),
         )
         record_raw(connection, user_id, "workouts", str(workout_id), item)
+        exercise_millis = nonnegative_float(item.get("exerciseTimeWithMillis"))
+        pace = nonnegative_float(item.get("avg_pace"))
+        connection.execute(
+            "UPDATE workouts SET duration_seconds = ?, average_pace_s_per_km = ?, "
+            "average_cadence_spm = ?, rpe = ?, exercise_load = ?, heart_zone_seconds = ? "
+            "WHERE user_id = ? AND workout_id = ?",
+            (
+                exercise_millis / 1000 if exercise_millis else float(duration_seconds),
+                pace * 1000 if pace else None,
+                nonnegative_float(item.get("avg_frequency")),
+                nonnegative_float(item.get("rpe")),
+                nonnegative_float(item.get("exercise_load")),
+                parse_heart_zones(item.get("heart_range")),
+                user_id,
+                str(workout_id),
+            ),
+        )
+        detail_pending = connection.execute(
+            "SELECT detail_synced_at IS NULL FROM workouts WHERE user_id = ? AND workout_id = ?",
+            (user_id, str(workout_id)),
+        ).fetchone()[0]
+        if detail_pending and item.get("source"):
+            sync_workout_detail(connection, client, user_id, str(workout_id), str(item["source"]))
         count += 1
     return count
 
@@ -811,6 +967,92 @@ def workout_probe_command(args: argparse.Namespace) -> int:
     return 0
 
 
+def bruce_stages_command(args: argparse.Namespace) -> int:
+    database = database_path()
+    if not database.exists():
+        raise CliError("No local cache found. Run 'sync' first.")
+    initialize_database(database)
+    with sqlite3.connect(database) as connection:
+        row = connection.execute(
+            "SELECT user_id FROM workouts WHERE workout_id = ?", (args.workout_id,)
+        ).fetchone()
+        if row is None:
+            raise CliError(f"Workout {args.workout_id} is not in the cache.")
+        user_id = row[0]
+        samples = connection.execute(
+            "SELECT offset_s, heart_rate_bpm, speed_mps, distance_m FROM workout_samples "
+            "WHERE user_id = ? AND workout_id = ? ORDER BY offset_s",
+            (user_id, args.workout_id),
+        ).fetchall()
+        if not samples:
+            raise CliError("No samples cached for this workout. Run 'sync' to fetch its detail.")
+        last_offset = samples[-1][0]
+        if args.end_offset_minutes is not None:
+            last_offset = min(last_offset, round(args.end_offset_minutes * 60))
+        start = (
+            round(args.start_offset_minutes * 60) if args.start_offset_minutes is not None else None
+        )
+        if start is None:
+            start = next((s[0] for s in samples if s[2] is not None and s[2] >= 0.5), 0)
+        connection.execute(
+            "DELETE FROM workout_stages "
+            "WHERE user_id = ? AND workout_id = ? AND protocol = 'bruce'",
+            (user_id, args.workout_id),
+        )
+        stages = []
+        for index, (incline, mph) in enumerate(BRUCE_STAGES):
+            stage_start = start + index * BRUCE_STAGE_SECONDS
+            if stage_start >= last_offset:
+                break
+            stage_end = stage_start + BRUCE_STAGE_SECONDS
+            completed = min(stage_end, last_offset) - stage_start
+            window = [s for s in samples if stage_start <= s[0] < stage_start + completed]
+            heart_rates = [s[1] for s in window if s[1] is not None]
+            distances = [s[3] for s in window if s[3] is not None]
+            before = [s[3] for s in samples if s[0] < stage_start and s[3] is not None]
+            distance = distances[-1] - (before[-1] if before else 0.0) if distances else None
+            stage = {
+                "stage": index,
+                "incline_pct": incline,
+                "protocol_speed_mph": mph,
+                "start_min": round(stage_start / 60, 2),
+                "end_min": round(stage_end / 60, 2),
+                "complete": completed == BRUCE_STAGE_SECONDS,
+                "completed_min": round(completed / 60, 2),
+                "average_heart_rate_bpm": (
+                    round(sum(heart_rates) / len(heart_rates), 1) if heart_rates else None
+                ),
+                "max_heart_rate_bpm": max(heart_rates) if heart_rates else None,
+                "end_heart_rate_bpm": heart_rates[-1] if heart_rates else None,
+                "distance_m": round(distance, 1) if distance is not None else None,
+            }
+            connection.execute(
+                "INSERT INTO workout_stages "
+                "VALUES (?, ?, 'bruce', ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+                (
+                    user_id,
+                    args.workout_id,
+                    index,
+                    incline,
+                    mph,
+                    stage_start,
+                    stage_end,
+                    int(stage["complete"]),
+                    stage["average_heart_rate_bpm"],
+                    stage["max_heart_rate_bpm"],
+                    stage["end_heart_rate_bpm"],
+                    stage["distance_m"],
+                    completed,
+                ),
+            )
+            stages.append(stage)
+    emit(
+        {"workout_id": args.workout_id, "start_min": round(start / 60, 2), "stages": stages},
+        args.json,
+    )
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description=__doc__)
     subcommands = parser.add_subparsers(dest="command", required=True)
@@ -843,6 +1085,24 @@ def build_parser() -> argparse.ArgumentParser:
     )
     workout_probe.add_argument("--json", action="store_true")
     workout_probe.set_defaults(handler=workout_probe_command)
+
+    bruce = subcommands.add_parser(
+        "bruce-stages",
+        help="Split a cached treadmill workout into 3-minute modified-Bruce stages",
+    )
+    bruce.add_argument("workout_id")
+    bruce.add_argument(
+        "--start-offset-minutes",
+        type=float,
+        help="Minutes from workout start when stage 0 began (default: first speed >= 0.5 m/s)",
+    )
+    bruce.add_argument(
+        "--end-offset-minutes",
+        type=float,
+        help="Minutes from workout start when you stopped (default: end of workout)",
+    )
+    bruce.add_argument("--json", action="store_true")
+    bruce.set_defaults(handler=bruce_stages_command)
     return parser
 
 
