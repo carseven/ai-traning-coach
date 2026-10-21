@@ -180,7 +180,7 @@ _Reglas para exportar planes a calendario y dispositivo._
 
 _Contexto vivo del estado físico/mental actual y foco del microciclo presente. Actualizar frecuentemente._
 
-- **Última actualización:** 13 oct 2026
+- **Última actualización:** 21 oct 2026
 - **Fase:** Construcción específica (semana 5 de 10, Valldigna Extrem el 21 nov)
 
 ### Volumen Actual
@@ -207,3 +207,6 @@ _Issues detectados, patrones de comportamiento, señales positivas. Registro viv
 - (16 sept 2026) Sesión intensa el día previo dejó al atleta con sensación de debilidad; se saltó el bloque de cinta/stepmill vertical del miércoles (fuerza de torso sí completada). Sueño de la noche del 15-16 sept normal (~8h17, 497 min). Se reprograma el trabajo vertical pendiente al jueves, fusionado con el rodaje llano (ver plan del 17 sept), reduciendo pendiente/volumen respecto a la prescripción estándar de semana 1 para no acumular fatiga.
 - (16 sept 2026) Añadido objetivo B post-Valldigna Extrem: Trail Les Creus, 2 feb 2027, Tavernes de la Valldigna (~22 km / ~1.250 m D+, terreno muy pedregoso/técnico según Wikiloc — reglamento 2027 aún sin confirmar oficialmente). Ver informe completo en `plans/les-creus-2027/informe.md`: bloque de 10 semanas entre carreras (recuperación → rebase → construcción específica → pico → taper), reutilizando las mismas rutinas de fuerza/excéntrico de la Valldigna Extrem por compartir patrón de riesgo (rodilla/cuádriceps en bajada técnica).
 - (13 oct 2026) Salida de montaña del 10 oct: 5 h 36 min con 1 h de paradas, D+862 m, FC media 113 lpm, RPE 7. Ritmo en movimiento ≈12,4 min por km-esfuerzo, más lento que la capacidad medida en cinta (~+510 m/h en Z1-Z2). Fue una ruta lenta con la pareja y paradas para comer y hacer fotos, no por fatiga: no mide la capacidad real. El primer corte de la Valldigna (km 10, 3 h) exige ~10,6 min por km-esfuerzo. Ver `plans/valldigna-extrem-2026/informe.md` §10.
+- (21 oct 2026) Fuerza de pierna: sesiones demasiado largas (67-90 min) y agujetas los días siguientes por el volumen (12-24 repeticiones por serie, step-down a 60 cm). Se reduce a ~45 min y ~110 repeticiones, con potencia (dumbbell swing 4x6), sentadilla 4x5, búlgara 3x6-8 y step-down 2x6-8. Ver `plans/valldigna-extrem-2026/informe.md` §6.1. Vigilar rodilla (≥3/10: parar).
+- (21 oct 2026) Torso: las dominadas se sustituyen por Face Pull 3x12 (RPE 7-8) para reducir los 3 días de tirón semanales; las dominadas quedan solo en el Fullbody. Ver `plans/valldigna-extrem-2026/informe.md` §11.
+- (21 oct 2026) Fuerza (Hevy vía Strava), semanas 1-5: 11 de 15 sesiones; la semana 5 fue la primera completa (3/3). Goblet squat 24 → 60 kg y zancada búlgara 7,5 → 17,5 kg. Press inclinado y remo ganan 30-40% de repeticiones con la misma carga. Hip thrust y dominadas lastradas bajan de carga en el Fullbody del 16 oct. Las bajadas de carga en remo, press militar y dominadas son deliberadas: prioriza RPE y técnica tras estancarse. El step-down se hace siempre en cajón de 60 cm (el plan prescribe 25-30 cm). La prueba de ritmo del 18 oct no consta en Strava ni en Zepp. Ver `plans/valldigna-extrem-2026/informe.md` §11.

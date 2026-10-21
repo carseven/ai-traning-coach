@@ -1,6 +1,6 @@
 # Valldigna Extrem 2026 — Informe de preparación
 
-_Última actualización: 13 octubre 2026_
+_Última actualización: 21 octubre 2026_
 
 ## 1. La carrera
 
@@ -107,27 +107,32 @@ No se añaden días nuevos: se redirigen 2 de las 6 sesiones ya existentes hacia
 
 ### 6.1 Fuerza 1 (Martes) — Pierna + excéntrico
 
-Objetivo: fuerza de pierna y, sobre todo, tolerancia excéntrica para las 3 bajadas técnicas del recorrido (km 8: -19.6%, km 26: -14.5%, km 34: -18.9%), clave dado el historial de lesión de cuádriceps y rodillas propensas.
+Objetivo: fuerza de pierna y tolerancia excéntrica para las 3 bajadas técnicas del recorrido (km 8: -19.6%, km 26: -14.5%, km 34: -18.9%), clave dado el historial de lesión de cuádriceps y rodillas propensas.
 
-| Ejercicio                                      | Series x reps   | Nota                         |
-| ---------------------------------------------- | --------------- | ---------------------------- |
-| Sentadilla goblet/barra                        | 4x8             | RPE 7                        |
-| Step-down lento (cajón)                        | 3x10 por pierna | Bajada controlada 3-4 seg    |
-| Zancada búlgara                                | 3x10 por pierna | Peso progresivo cada semana  |
-| Prensa a una pierna                            | 3x12 por pierna | RPE 7                        |
-| Glúteo medio (banda, clamshell o monster walk) | 3x15            | Activación previa o al final |
+**Ajuste del 21 oct (desde la semana 6):** la sesión pasa de 67-90 min a ~45 min y de ~300 a ~110 repeticiones. Se prioriza fuerza y potencia con carga alta y pocas repeticiones, para reducir las agujetas de los días siguientes. Las semanas 1-5 usaron la versión anterior: 12-24 repeticiones por serie y prensa a una pierna. El step-down se mantiene porque es el estímulo excéntrico específico, pero con 2 series cortas.
+
+| Orden | Ejercicio                                   | Series x reps       | Descanso | Nota                                                                                      |
+| ----- | ------------------------------------------- | ------------------- | -------- | ----------------------------------------------------------------------------------------- |
+| 0     | Calentamiento (5 min): puente de glúteo + movilidad dinámica | 1x12 + 1 min por pierna | — | Balanceo de pierna y zancada atrás. Sustituye al bloque de glúteo medio de 3x15 |
+| 1     | Dumbbell swing (una mancuerna a dos manos)  | 4x6                 | 90 s     | Potencia de cadera, descansado. Mancuerna moderada-alta (>16 kg), velocidad máxima, RPE 6-7. Sin impacto   |
+| 2     | Sentadilla con barra                        | 4x5                 | 2 min    | RPE 7-8. Empezar con ~70-80 kg y ajustar por RPE. Goblet solo como calentamiento           |
+| 3     | Zancada búlgara                             | 3x6-8 por pierna    | 90 s     | RPE 7-8, carga progresiva                                                                 |
+| 4     | Step-down lento (cajón 60 cm)               | 2x6-8 por pierna    | 90 s     | Tempo de bajada 4 s. Última serie sin llegar al fallo                                     |
+
+Se elimina la prensa a una pierna: duplicaba el trabajo de cuádriceps. El swing da potencia sin impacto ni fase excéntrica, por lo que genera pocas agujetas. Cada repetición debe ser rápida y con la espalda neutra. En el gimnasio del atleta hay pocos kettlebells, por eso se usa una mancuerna sujeta con las dos manos por un extremo. El atleta domina 16 kg con facilidad en 6 repeticiones: empezar con una mancuerna de 24 kg. En Hevy se registra como "Kettlebell Swing", porque no existe "Dumbbell Swing" en su biblioteca. Parar si la molestia de rodilla sube a ≥3/10. No programar esta sesión el día anterior a una tirada larga.
 
 **Progresión por fase:**
 
-| Semanas                  | Step-down                     | Tempo bajada | Nota                                    |
-| ------------------------ | ----------------------------- | ------------ | --------------------------------------- |
-| ~~1-3 (base)~~           | ~~Cajón 20 cm~~               | ~~3 seg~~    | ~~Base de tolerancia~~                  |
-| 4-6 (build, 5-25 oct)    | Cajón 25 cm                   | 4 seg        | Ya replica una bajada tipo -14% (km26)  |
-| 7-8 (pico, 26 oct-8 nov) | Cajón 25-30 cm + peso extra   | 4-5 seg      | Prepara específicamente km8/km34 (-19%) |
-| 9 (sharpen, 9-15 nov)    | Mantener carga, bajar volumen | 4 seg        | No acumular fatiga nueva                |
-| 10 (taper, 16-22 nov)    | Mantenimiento ligero          | 3 seg        | Cero agujetas nuevas antes de carrera   |
+| Semanas                  | Potencia / fuerza                           | Step-down (cajón 60 cm)           | Nota                                    |
+| ------------------------ | ------------------------------------------- | --------------------------------- | --------------------------------------- |
+| ~~1-3 (base)~~           | ~~Versión anterior, cajón 20 cm~~           | ~~3 seg~~                         | ~~Base de tolerancia~~                  |
+| ~~4-5 (build, 5-18 oct)~~| ~~Versión anterior, 12-24 repeticiones~~    | ~~Cajón 60 cm, 15-17,5 kg × 12~~  | ~~Realizado~~                           |
+| 6-7 (build, 19 oct-1 nov)| Dumbbell swing 4x6, sentadilla 4x5, búlgara 3x6-8 | 15-17,5 kg, tempo 4 s             | Ya replica una bajada tipo -14% (km26)  |
+| 8 (pico, 2-8 nov)        | Igual, con ~5% más de carga si el RPE ≤ 8   | Peso extra, tempo 4-5 s           | Prepara específicamente km8/km34 (-19%) |
+| 9 (sharpen, 9-15 nov)    | Dumbbell swing 3x6, sentadilla 3x4, búlgara 2x6 | Mantener carga, 1-2 series        | No acumular fatiga nueva                |
+| 10 (taper, 16-22 nov)    | Sesión de 25-30 min: dumbbell swing 3x6 ligero, sentadilla con barra 3x4 RPE 6, búlgara 2x5 ligera | Sin step-down | Cero agujetas nuevas antes de carrera |
 
-Zancada búlgara y prensa unilateral siguen la misma progresión de carga (sube peso cada 2 semanas hasta semana 8, luego baja en 9-10).
+Progresar primero en carga y mantener las repeticiones. No subir a la vez carga, altura del cajón y repeticiones.
 
 ### 6.2 Fuerza 2 (Miércoles) — Torso
 
@@ -346,3 +351,94 @@ El primer control es el más exigente. Con el modelo de la cinta (ascenso Z2 de 
 - **Nutrición:** comida real como base, con 40-60 g/h de carbohidrato. Pesar la comida antes y después de la prueba y anotar lo comido por hora. Un gel de respaldo para el último tercio de la carrera.
 - **Material:** frontal con pila de repuesto. Mismas zapatillas en la prueba y en la carrera. Zapatillas, mochila y reloj sin confirmar.
 - **Pendiente tras la prueba:** tiempos objetivo por control, reglas de bajada con bastones y cifras definitivas de nutrición para las semanas 7-8.
+
+## 11. Progreso de fuerza y carga — 21 octubre 2026
+
+### Datos y alcance
+
+Fuente: 27 sesiones de Hevy subidas a Strava (6 ago–19 oct). Las series se leen como kg × repeticiones @ RPE. Hevy no guarda el tempo de bajada. La altura del cajón la confirma el atleta (21 oct): **siempre 60 cm**, la altura de su gimnasio. Los ejercicios de §6.3 que no constan en Hevy (RDL, equilibrio, banda de tobillo) no se pueden dar por hechos ni por omitidos.
+
+La prueba de ritmo del 18 oct no consta en Strava ni en la caché de Zepp (sincronizada el 20 oct). Su resultado queda pendiente.
+
+### Adherencia a fuerza (semanas 1-5)
+
+| Semana         | Pierna + excéntrico | Torso  | Fullbody | Sesiones |
+| -------------- | ------------------- | ------ | -------- | -------- |
+| 1 (14-20 sep)  | 15 sep              | 16 sep | —        | 2/3      |
+| 2 (21-27 sep)  | —                   | 23 sep | 25 sep   | 2/3      |
+| 3 (28 sep-4 oct) | 30 sep            | 1 oct  | —        | 2/3      |
+| 4 (5-11 oct)   | 6 oct               | 7 oct  | — (senderismo 9 oct) | 2/3 |
+| 5 (12-18 oct)  | 15 oct              | 13 oct | 16 oct   | **3/3**  |
+| 6 (desde 19 oct) | —                 | 19 oct | —        | en curso |
+
+Total semanas 1-5: **11 de 15 sesiones (73%)**. La semana 5 es la primera completa. Falta casi siempre el Fullbody.
+
+### Progresión por ejercicio
+
+**Pierna + excéntrico** (15 sep → 15 oct)
+
+| Ejercicio             | 15 sep                  | 15 oct                          | Cambio                          |
+| --------------------- | ----------------------- | ------------------------------- | ------------------------------- |
+| Goblet squat          | 24 kg × 8-12, RPE 6-7   | 40/50/60/60 kg × 10, RPE 7-8,5  | Carga máx. +36 kg (24 → 60)     |
+| Step-down lento (cajón 60 cm) | 0/10/15 kg × 20 | 15/17,5/17,5 kg × 12 | Carga +2,5 kg; menos repeticiones |
+| Zancada búlgara       | 7,5 kg × 20             | 15/17,5/17,5 kg × 12            | Carga +10 kg (7,5 → 17,5)       |
+| Prensa a una pierna   | 10-30 kg × 24           | 30/32,5/32,5 kg × 20-22         | Carga +2,5 kg                   |
+| Abducción de cadera   | 61 kg × 12              | Sin registro desde el 30 sep    | —                               |
+
+**Torso** (16 sep → 19 oct)
+
+| Ejercicio              | 16 sep                    | 19 oct                    | Cambio                                   |
+| ---------------------- | ------------------------- | ------------------------- | ---------------------------------------- |
+| Press inclinado manc.  | 27,5 kg × 16-8-8-8 (40 rep.) | 27,5 kg × 20-16-20 (56 rep.) | +40% de repeticiones con la misma carga |
+| Press militar barra    | 40 kg × 10 (1 serie)      | 40/40/45 kg × 10/10/8     | Primera serie con 45 kg                  |
+| Remo sentado en polea  | 62,5 kg × 8-8-7 (23 rep.) | 62,5 kg × 10-10-10 (30 rep.) | +30% de repeticiones con la misma carga |
+| Dominadas              | 8-8-8 (24 rep.)           | 6-6-6 (18 rep.)           | Sin mejora (el 7 oct se hicieron explosivas) |
+
+**Fullbody** (25 sep → 16 oct)
+
+| Ejercicio                | 25 sep                     | 16 oct                    | Cambio                                 |
+| ------------------------ | -------------------------- | ------------------------- | -------------------------------------- |
+| Step-up con mancuernas   | 20 kg × 7-6-6 (RPE 8,5-9,5) | 20 kg × 8-8-8 (RPE 8-8,5) | +26% de repeticiones con menor RPE     |
+| Press banca con manc.    | 55 kg × 8-8-10             | 55 kg × 10-10-8           | Igual (26 → 28 rep.)                   |
+| Hip thrust en máquina    | 60-62,5 kg × 8             | 40 kg × 10-12-12          | Carga −20 kg                           |
+| Dominadas lastradas      | 10 kg × 6-5-4-4            | 0/5/5 kg × 8/5/5          | Carga −5 a −10 kg                      |
+| Gemelo a una pierna      | —                          | 10 kg × 13-10-10          | Ejercicio nuevo                        |
+
+### Carga de resistencia en octubre (km-esfuerzo = km + D+/100)
+
+| Semana        | Km-esfuerzo | Notas                                                                              |
+| ------------- | ----------- | ---------------------------------------------------------------------------------- |
+| 4 (5-11 oct)  | 47,9        | Cinta 7,9 + senderismo 10,6 + 22,3 + 7,0                                           |
+| 5 (12-18 oct) | 33,4        | Cintas 8,1 + 8,6 + 7,7, rodaje 5,7 y stepper 3,3. Sin el test de Bruce (sin D+).   |
+| 6 (19-20 oct) | 13,5        | Cinta 6,3 + rodaje 7,2                                                             |
+
+La semana 5 no incluye la salida larga del domingo 18 oct, que no consta.
+
+### Lectura
+
+- **Pierna + excéntrico progresa claramente.** Sube la carga en goblet squat y zancada búlgara. El RPE prescrito para esta rutina el 13 oct (6-7) no se cumplió: el 15 oct las últimas series llegaron a RPE 8-8,5.
+- **Torso gana repeticiones con la misma carga.** Press inclinado y remo suben 30-40% en repeticiones. El press militar mantiene 40 kg.
+- **Fullbody tiene señales mixtas.** El step-up mejora. El hip thrust y las dominadas lastradas bajan de carga, con solo dos sesiones de datos.
+- **Referencia de agosto, previa al plan:** press militar 50 kg × 8-9, remo 70-77,5 kg y dominadas con 15-20 kg. La bajada de carga en remo, press militar y dominadas es **deliberada** (atleta, 21 oct): se estancaba en estos movimientos y ahora prioriza seguir un RPE y la técnica. No es un retroceso. Se evalúa por RPE y repeticiones, no por kg. Las dominadas (6-6-6 a RPE 7,5-8,5) no se comparan con las de septiembre porque cambió el criterio de ejecución.
+- **Desviaciones respecto a §6.1-6.3:**
+  - **Step-down a 60 cm** frente a los 25-30 cm de §6.1. Es el doble de altura, con 15-17,5 kg extra. Esto aumenta la demanda excéntrica y la flexión de rodilla en cada repetición. Con la molestia de rodilla de 2/10 (13 oct), conviene vigilar la respuesta del día siguiente. El cajón de 60 cm también significa que los kg no son comparables con los de un cajón de 25 cm.
+  - Las repeticiones en pierna (12-24) superan las prescritas (10-12). Esto da más volumen y fatiga, no necesariamente más carga excéntrica.
+  - El torso lleva dominadas, remo y press militar con barra, en lugar de press militar de pie con mancuernas, remo a una mano y face pull.
+  - La sentadilla con barra (90 kg × 5 el 8 sep) se sustituyó por goblet y step-down desde el 15 sep.
+- **Excéntrico específico para el km 8, 26 y 34:** con 60 cm, el step-down ya replica o supera esas bajadas en altura de escalón. Falta registrar el tempo (el plan pide 4-5 s).
+
+### Recomendaciones provisionales (pendientes de aprobación)
+
+1. Registrar el tempo del step-down en la nota de Hevy.
+2. Priorizar el Fullbody de la semana 6: es la sesión que más se omite y la que acusa bajada de carga.
+3. En el step-down, no subir a la vez carga, altura y repeticiones. Con 60 cm, valorar mantener el peso en 15-17,5 kg y progresar con el tempo. La Fuerza 1 ya se ajustó el 21 oct (§6.1).
+4. Mantener el enfoque por RPE y técnica en remo, press militar y dominadas. Fijar un RPE objetivo por ejercicio y subir la carga solo cuando las repeticiones se cumplan con técnica limpia.
+5. Decidir si el torso mantiene las dominadas y el remo, o vuelve al diseño de §6.2. La escalada ya aporta tirón.
+6. Confirmar si la prueba del 18 oct se hizo o se pospuso, y registrarla para aplicar los umbrales de §10.
+
+### Ajuste de Torso — 21 octubre 2026
+
+- **Cambio:** en Torso, las dominadas se sustituyen por Face Pull 3x12 a RPE 7-8, al final de la sesión. Las dominadas quedan solo en el Fullbody.
+- **Motivo:** el atleta hace 3 días de tirón por semana (escalada, dominadas y remo en Torso, dominadas lastradas en Fullbody). Se había estancado en remo, dominadas y press militar. El exceso de tirón es una hipótesis, no un hecho confirmado. §6.2 ya incluía Face Pull 3x15 para el hombro y la mochila.
+- **Hevy:** rutina Torso editada con 4 ejercicios (press militar, remo sentado, press inclinado y Face Pull). Sin peso en el Face Pull: sin historial.
+- **Pendiente:** Fullbody sin cambios hasta que el atleta decida (propuestas: quitar press de banca, bajar el step-up a RPE 7 y añadir equilibrio a una pierna).

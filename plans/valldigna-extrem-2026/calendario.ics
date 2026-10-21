@@ -352,7 +352,7 @@ DTSTAMP:20260915T000000Z
 DTSTART;TZID=Europe/Madrid:20261027T190000
 DTEND;TZID=Europe/Madrid:20261027T201500
 SUMMARY:[S7] Fuerza 1 - Pierna + excentrico
-DESCRIPTION:Fase: Construccion especifica. Objetivo: tolerancia excentrica para las bajadas tecnicas (km8 -19.6%\, km26 -14.5%\, km34 -18.9%).\nSentadilla goblet/barra: 4x8 RPE 7\nStep-down lento (cajon): 3x10 por pierna -- Cajon 25-30 cm + peso extra\, tempo bajada 4-5 seg\nZancada bulgara: 3x10 por pierna\, peso progresivo\nPrensa a una pierna: 3x12 por pierna\, RPE 7\nGluteo medio (banda/clamshell/monster walk): 3x15\nNota fase: Prepara especificamente km8/km34 (-19%)
+DESCRIPTION:Fase: Construccion especifica. Objetivo: fuerza y potencia con poco volumen (~45 min\, menos agujetas) y tolerancia excentrica para km8/km26/km34.\nCalentamiento 5 min: puente de gluteo 1x12 + movilidad dinamica (balanceo de pierna\, zancada atras) 1 min por pierna\nDumbbell swing (mancuerna a dos manos): 4x6 -- velocidad maxima RPE 6-7\, descanso 90 s\nSentadilla con barra: 4x5 RPE 7-8\, descanso 2 min\nZancada bulgara: 3x6-8 por pierna RPE 7-8\nStep-down lento (cajon 60 cm): 2x6-8 por pierna\, tempo bajada 4 seg\nNota fase: Ya replica una bajada tipo -14% (km26)
 END:VEVENT
 BEGIN:VEVENT
 UID:valldigna-2026-10-28-45@personal-coach
@@ -408,7 +408,7 @@ DTSTAMP:20260915T000000Z
 DTSTART;TZID=Europe/Madrid:20261103T190000
 DTEND;TZID=Europe/Madrid:20261103T201500
 SUMMARY:[S8] Fuerza 1 - Pierna + excentrico
-DESCRIPTION:Fase: Pico. Objetivo: tolerancia excentrica para las bajadas tecnicas (km8 -19.6%\, km26 -14.5%\, km34 -18.9%).\nSentadilla goblet/barra: 4x8 RPE 7\nStep-down lento (cajon): 3x10 por pierna -- Cajon 25-30 cm + peso extra\, tempo bajada 4-5 seg\nZancada bulgara: 3x10 por pierna\, peso progresivo\nPrensa a una pierna: 3x12 por pierna\, RPE 7\nGluteo medio (banda/clamshell/monster walk): 3x15\nNota fase: Prepara especificamente km8/km34 (-19%)
+DESCRIPTION:Fase: Pico. Objetivo: fuerza y potencia con poco volumen (~45 min\, menos agujetas) y tolerancia excentrica para km8/km26/km34.\nCalentamiento 5 min: puente de gluteo 1x12 + movilidad dinamica (balanceo de pierna\, zancada atras) 1 min por pierna\nDumbbell swing (mancuerna a dos manos): 4x6 -- velocidad maxima RPE 6-7\, descanso 90 s\nSentadilla con barra: 4x5 RPE 7-8 (~5% mas de carga si el RPE <= 8)\, descanso 2 min\nZancada bulgara: 3x6-8 por pierna RPE 7-8\nStep-down lento (cajon 60 cm + peso extra): 2x6-8 por pierna\, tempo bajada 4-5 seg\nNota fase: Prepara especificamente km8/km34 (-19%)
 END:VEVENT
 BEGIN:VEVENT
 UID:valldigna-2026-11-04-52@personal-coach
@@ -464,7 +464,7 @@ DTSTAMP:20260915T000000Z
 DTSTART;TZID=Europe/Madrid:20261110T190000
 DTEND;TZID=Europe/Madrid:20261110T201500
 SUMMARY:[S9] Fuerza 1 - Pierna + excentrico
-DESCRIPTION:Fase: Afinado. Objetivo: tolerancia excentrica para las bajadas tecnicas (km8 -19.6%\, km26 -14.5%\, km34 -18.9%).\nSentadilla goblet/barra: 4x8 RPE 7\nStep-down lento (cajon): 3x10 por pierna -- Mantener carga\, bajar volumen\, tempo bajada 4 seg\nZancada bulgara: 3x10 por pierna\, peso progresivo\nPrensa a una pierna: 3x12 por pierna\, RPE 7\nGluteo medio (banda/clamshell/monster walk): 3x15\nNota fase: No acumular fatiga nueva
+DESCRIPTION:Fase: Afinado. Objetivo: mantener fuerza y potencia con menos volumen\, sin agujetas nuevas.\nCalentamiento 5 min: puente de gluteo 1x12 + movilidad dinamica (balanceo de pierna\, zancada atras) 1 min por pierna\nDumbbell swing (mancuerna a dos manos): 3x6 -- velocidad maxima RPE 6-7\, descanso 90 s\nSentadilla con barra: 3x4 RPE 7\, descanso 2 min\nZancada bulgara: 2x6 por pierna RPE 7\nStep-down lento (cajon 60 cm): 1-2x6 por pierna\, mantener carga\, tempo bajada 4 seg\nNota fase: No acumular fatiga nueva
 END:VEVENT
 BEGIN:VEVENT
 UID:valldigna-2026-11-11-59@personal-coach
@@ -520,7 +520,7 @@ DTSTAMP:20260915T000000Z
 DTSTART;TZID=Europe/Madrid:20261117T190000
 DTEND;TZID=Europe/Madrid:20261117T201500
 SUMMARY:[S10] Fuerza 1 - Pierna + excentrico
-DESCRIPTION:Fase: Tapering. Objetivo: tolerancia excentrica para las bajadas tecnicas (km8 -19.6%\, km26 -14.5%\, km34 -18.9%).\nSentadilla goblet/barra: 4x8 RPE 7\nStep-down lento (cajon): 3x10 por pierna -- Mantenimiento ligero\, tempo bajada 3 seg\nZancada bulgara: 3x10 por pierna\, peso progresivo\nPrensa a una pierna: 3x12 por pierna\, RPE 7\nGluteo medio (banda/clamshell/monster walk): 3x15\nNota fase: Cero agujetas nuevas antes de carrera
+DESCRIPTION:Fase: Tapering. Objetivo: mantenimiento neural en 25-30 min\, sin agujetas.\nCalentamiento 5 min: puente de gluteo 1x12 + movilidad dinamica (balanceo de pierna\, zancada atras) 1 min por pierna\nDumbbell swing (mancuerna a dos manos): 3x6 ligero\nSentadilla con barra: 3x4 RPE 6\nZancada bulgara: 2x5 por pierna ligera\nSin step-down pesado\nNota fase: Cero agujetas nuevas antes de carrera
 END:VEVENT
 BEGIN:VEVENT
 UID:valldigna-2026-11-18-66@personal-coach
