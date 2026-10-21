@@ -78,6 +78,57 @@ Si el atleta conecta Zepp Life, usa el script local `uv run --directory scripts/
 
 No pidas ni recibas `apptoken` por chat. El atleta lo configura localmente mediante `uv run --directory scripts/zepp python zepp_cli.py configure`; el flujo recomendado lo almacena en el llavero del sistema. Pide consentimiento antes de una actualización con `uv run --directory scripts/zepp python zepp_cli.py sync` cuando la caché no cubra el periodo requerido o el atleta solicite datos recientes.
 
+### Strava — Segunda fuente de entrenos
+
+El atleta sube a Strava todos sus entrenamientos. Úsalo junto a Zepp, sobre todo para el desnivel de la cinta y el progreso de fuerza.
+
+**Cómo recuperar los datos**
+
+1. Abre `https://www.strava.com/athlete/training` en el navegador integrado.
+2. Si pide login, deja que el atleta inicie sesión. Nunca pidas ni escribas usuario, contraseña o tokens.
+3. Lee la tabla de actividades (deporte, fecha, título, tiempo, distancia, desnivel). Si falta el periodo, carga más actividades.
+
+**Qué aporta cada fuente**
+
+| Dato | Fuente |
+| --- | --- |
+| FC, zonas, muestras, sueño, RHR | Zepp |
+| Pendiente y D+ de la cinta (el reloj no los guarda) | Título de Strava |
+| Progreso de fuerza (ejercicios, pesos, series) | Actividad de Hevy en Strava |
+| D+ de salidas de montaña | Strava o Zepp (coinciden) |
+
+**Convenciones del atleta**
+
+- En la cinta, el título lleva la pendiente y el desnivel, por ejemplo `z2 15% +461m`. El D+ del título prevalece sobre el valor del reloj.
+- Si el título no lleva D+, usa el desnivel que muestra Strava. No inventes pendiente.
+- Para unir una actividad de Strava con una de Zepp, compara fecha y duración.
+
+**Fuerza: reloj + Hevy**
+
+Cada día de fuerza hay **dos actividades "Weight Training"** en Strava con la misma hora de inicio y duración casi igual (±1 min). Son la misma sesión: no las sumes ni cuentes dos veces.
+
+| | Actividad del reloj | Actividad de Hevy |
+| --- | --- | --- |
+| Título | Genérico: `Evening Weight Training` | Nombre de la rutina: `Torso`, `Pierna + Excéntrico`, `Fullbody` |
+| Origen | Reloj (sube también Zepp) | App Hevy (etiqueta "Hevy" en la ficha) |
+| Aporta | FC, tiempo, calorías | Ejercicios, series, kg, repeticiones, RPE |
+| No aporta | Ejercicios ni cargas | FC |
+
+Cómo leer la actividad de Hevy:
+
+1. Abre la ficha de la actividad (`strava.com/activities/<id>`). El id sale de los enlaces de la tabla de actividades.
+2. La descripción empieza con `Logged with hevyapp.com` y lista un bloque por ejercicio.
+3. Cada serie sigue uno de estos formatos:
+   - Con carga: `Set 1: 40 kg x 10 @ 7 rpe` (kg × repeticiones @ RPE).
+   - Peso corporal: `Set 1: 6 reps @ 7.5 rpe`.
+4. Si la descripción aparece recortada, pulsa `•••` (View more) para ver todos los ejercicios.
+5. Para progreso, compara los mismos ejercicios entre sesiones: carga, repeticiones totales y RPE por serie. Una carga igual con RPE más bajo indica mejora.
+6. Para FC y carga cardiaca de esa sesión, usa la actividad del reloj o Zepp.
+
+El día de fuerza no aporta km ni D+ (0 km): no entra en el km-esfuerzo.
+
+**Km-esfuerzo** = km + D+ (m) / 100. Calcúlalo con la distancia y el D+ de cada sesión. Si falta el D+, indícalo en lugar de suponerlo.
+
 ### Disciplina de memoria
 
 Cada dato tiene **un solo sitio**:
