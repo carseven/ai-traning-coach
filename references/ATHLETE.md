@@ -13,7 +13,7 @@ _Datos biométricos, médicos y logísticos que definen el contexto vital del at
 
 _Condiciones activas que afectan al entrenamiento, y lesiones pasadas relevantes para prevención._
 
-- **Condiciones actuales:** Molestia leve de 2/10 en rodilla/cuádriceps, ubicación sin precisar (13 oct 2026). Se mantiene el plan; si sube a ≥3, se baja la carga de bajada.
+- **Condiciones actuales:** Molestia muscular en ambas rodillas (cuádriceps alrededor de la rodilla) al acabar de correr (30 oct 2026). Escaleras y cinta sin problema. El fisio la atribuye a mala biomecánica por glúteo débil, sin límites concretos salvo prudencia y correr poco. Que el impacto de correr sea la causa es una hipótesis, no confirmada. Regla: molestia ≥3/10 en fuerza o salida, parar o bajar la carga.
 - **Historial de lesiones:** Lesión de cuádriceps en agosto 2026 (recuperado). Rodillas propensas a molestias de forma recurrente — vigilar volumen de bajada/impacto y priorizar trabajo excéntrico y de estabilidad.
 
 ### Disponibilidad y Horario
@@ -21,7 +21,7 @@ _Condiciones activas que afectan al entrenamiento, y lesiones pasadas relevantes
 _Restricciones de calendario fijas y preferencias de conciliación._
 
 - **Restricciones fijas:** Vive en el centro de Valencia (sin desnivel accesible entre semana). Las tiradas largas/con desnivel solo son posibles en fin de semana, y no todos los fines de semana.
-- **Otras actividades deportivas:** 3 días de fuerza/gimnasio, 1 día de escalada (ocio), 2 días de carrera — estructura actual antes de añadir trabajo específico de carrera.
+- **Otras actividades deportivas:** 3 días de fuerza/gimnasio, 1 día de escalada (ocio), cinta/stepper vertical caminando (2 días: el miércoles más exigente, el jueves en Z2 suave). En llano caminando no llega a Z2: usa pendiente. Sin correr desde el 30 oct 2026 (fisio: correr poco); cuándo volver a correr se decide con el fisio tras la Valldigna.
 - **Preferencias:**
   - Horario preferido para correr
   - Día preferido para tirada larga: fin de semana (no siempre disponible)
@@ -113,7 +113,7 @@ _Hardware y material disponible para el entrenamiento._
 
 _Disciplinas complementarias activas. Mantener vacío si no aplica. Detalles metodológicos en `references/strength.md`, `references/cycling.md`, `references/swimming.md`._
 
-- **Fuerza/Core:** 3 días/semana (Lunes pierna+excéntrico, Miércoles torso, Viernes fullbody+core+tobillo). Foco redirigido hacia prevención de rodilla/cuádriceps y trabajo excéntrico de cara a la carrera.
+- **Fuerza/Core:** 3 días/semana (Pierna + glúteo, Torso, Fullbody + core + tobillo; los días varían según la semana). Foco redirigido hacia glúteo (el fisio indica glúteo débil), prevención de rodilla/cuádriceps y trabajo excéntrico de cara a la carrera.
 - **Escalada:** 1 día/semana, ocio, bajo impacto — mantener sin cambios.
 - **Ciclismo:** Frecuencia, tipo (rodillo, ruta, MTB), FTP si lo conoce
 - **Natación:** Frecuencia, nivel técnico, CSS/T1500 si lo conoce
@@ -133,7 +133,7 @@ _Carreras objetivo y de preparación. Las fechas concretas son necesarias para p
 
 | Fecha       | Nombre           | Distancia | D+       | Tipo                                                                                                              | Prioridad |
 | ----------- | ---------------- | --------- | -------- | ----------------------------------------------------------------------------------------------------------------- | --------- |
-| 21 nov 2026 | Valldigna Extrem | 40 km     | 1.800 m  | Marcha senderista de montaña, no competitiva, corte 12h                                                           | A         |
+| 21 nov 2026 | Valldigna Extrem | 40 km     | 1.800 m  | Marcha senderista de montaña, no competitiva, corte 12h. Se hace solo caminando, sin correr (30 oct 2026)         | A         |
 | 2 feb 2027  | Trail Les Creus  | ~22 km    | ~1.250 m | Carrera de trail running, Tavernes de la Valldigna, terreno pedregoso/técnico (reglamento 2027 aún sin confirmar) | B         |
 
 ### Modelo de Periodización
@@ -180,8 +180,8 @@ _Reglas para exportar planes a calendario y dispositivo._
 
 _Contexto vivo del estado físico/mental actual y foco del microciclo presente. Actualizar frecuentemente._
 
-- **Última actualización:** 21 oct 2026
-- **Fase:** Construcción específica (semana 5 de 10, Valldigna Extrem el 21 nov)
+- **Última actualización:** 30 oct 2026
+- **Fase:** Construcción específica (semana 7 de 10, Valldigna Extrem el 21 nov). Semana 7 casi perdida por enfermedad y viaje.
 
 ### Volumen Actual
 
@@ -192,8 +192,8 @@ _Carga semanal actual y estructura típica._
 
 ### Foco Actual
 
-- Validar el ritmo de campo con una prueba el 18 oct (ver `plans/valldigna-extrem-2026/informe.md` §10): primer corte de la carrera a 3 h del inicio. Prueba sola, con bastones y mochila. Objetivo de carrera: 9-10 h.
-- Bastones: poca experiencia (13 oct 2026). Practicar el jueves 15 y al inicio de la prueba.
+- Vuelta tras la enfermedad: salida de montaña caminando el sáb 31 oct (3 h, D+ 600-900 m) y simulacro caminando el 8 nov (4 h 30-5 h). Estos dos días miden el ritmo real de subida y de marcha en llano para fijar el objetivo de la carrera. Ver `plans/valldigna-extrem-2026/informe.md` §12.
+- Bastones: poca experiencia (13 oct 2026). Practicar en las salidas de montaña (la del 31 oct y el simulacro del 8 nov).
 
 ### Estado de Forma (Métricas)
 
@@ -210,3 +210,5 @@ _Issues detectados, patrones de comportamiento, señales positivas. Registro viv
 - (21 oct 2026) Fuerza de pierna: sesiones demasiado largas (67-90 min) y agujetas los días siguientes por el volumen (12-24 repeticiones por serie, step-down a 60 cm). Se reduce a ~45 min y ~110 repeticiones, con potencia (dumbbell swing 4x6), sentadilla 4x5, búlgara 3x6-8 y step-down 2x6-8. Ver `plans/valldigna-extrem-2026/informe.md` §6.1. Vigilar rodilla (≥3/10: parar).
 - (21 oct 2026) Torso: las dominadas se sustituyen por Face Pull 3x12 (RPE 7-8) para reducir los 3 días de tirón semanales; las dominadas quedan solo en el Fullbody. Ver `plans/valldigna-extrem-2026/informe.md` §11.
 - (21 oct 2026) Fuerza (Hevy vía Strava), semanas 1-5: 11 de 15 sesiones; la semana 5 fue la primera completa (3/3). Goblet squat 24 → 60 kg y zancada búlgara 7,5 → 17,5 kg. Press inclinado y remo ganan 30-40% de repeticiones con la misma carga. Hip thrust y dominadas lastradas bajan de carga en el Fullbody del 16 oct. Las bajadas de carga en remo, press militar y dominadas son deliberadas: prioriza RPE y técnica tras estancarse. El step-down se hace siempre en cajón de 60 cm (el plan prescribe 25-30 cm). La prueba de ritmo del 18 oct no consta en Strava ni en Zepp. Ver `plans/valldigna-extrem-2026/informe.md` §11.
+- (30 oct 2026) Semana 7 casi perdida por enfermedad y viaje: solo Torso el 29 oct. FC de reposo matinal 49, 50, 59, 50, 52 lpm (26-30 oct; base 48). La carrera pasa a hacerse solo caminando y no se planifica correr hasta la Valldigna, por las rodillas y el consejo del fisio (glúteo débil). Fuerza de pierna con más glúteo y menos carga de rodilla: el step-down con 20 kg llegó a RPE 9 el 22 oct. Estimación de la carrera caminando: ~9,5-11 h, a confirmar con la salida del 31 oct y el simulacro del 8 nov. Ver `plans/valldigna-extrem-2026/informe.md` §12.
+- (30 oct 2026) La cinta le resulta mucho más fácil que el terreno de montaña. Al sustituir una salida por cinta, el D+ de la cinta debe ser igual o mayor (+10-20%) que el de la ruta. La cinta no da D−. Ver `plans/valldigna-extrem-2026/informe.md` §6.5.

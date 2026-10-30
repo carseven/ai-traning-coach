@@ -380,75 +380,93 @@ DESCRIPTION:Fase: Construccion especifica. 45-50 min continuos\, ritmo 7:00-7:30
 END:VEVENT
 BEGIN:VEVENT
 UID:valldigna-2026-10-30-48@personal-coach
-DTSTAMP:20260915T000000Z
+DTSTAMP:20261030T170000Z
+SEQUENCE:2
 DTSTART;TZID=Europe/Madrid:20261030T190000
-DTEND;TZID=Europe/Madrid:20261030T201500
-SUMMARY:[S7] Fuerza 3 - Fullbody + tobillo
-DESCRIPTION:Fase: Construccion especifica. Cierra la semana con patrones no trabajados el martes/miercoles: bisagra de cadera\, tiron vertical\, empuje ligero\, estabilidad.\nPeso muerto rumano (RDL) o hip thrust: 3x8-10\nDominadas (asistidas si hace falta): 3x6-8 o al fallo\nPress de pecho con mancuernas o fondos en paralelas: 3x10\nZancada caminando o step-up lateral: 3x10 por pierna\nEquilibrio a una pierna (suelo -> ojos cerrados): 3x30-45 seg por pierna\nBanda tobillo (inversion/eversion): 3x15 por lado\nElevacion de talon a una pierna: 3x15 por pierna\nProgresion: sube peso/dificultad esta semana (progresion hasta semana 8\, pico)
+DTEND;TZID=Europe/Madrid:20261030T202000
+SUMMARY:[S7] Cinta de subida (viernes)
+DESCRIPTION:80 min: 5 min calentar (0-4%)\, 65 min a 13% y 4\,0 km/h\, 10 min enfriar (4%). ~5\,3 km\, D+ ~600 m\, FC <=146 lpm (si la pasa\, baja la pendiente 1%)\, RPE 4-5. Sin trote.\nSolo si no hay fiebre\, tos de pecho ni dolores musculares generales (vale con molestias leves de nariz o garganta) y la rodilla esta <=1/10. Si a los 20 min te encuentras peor\, parar. Es el dia antes de la salida larga: terminar antes de las 21:00 y dormir >=8 h. Preparar mochila de carrera\, bastones\, comida real (40-60 g/h de carbohidrato) y zapatillas de carrera.
 END:VEVENT
 BEGIN:VEVENT
 UID:valldigna-2026-11-01-49@personal-coach
-DTSTAMP:20260915T000000Z
-DTSTART;VALUE=DATE:20261101
-DTEND;VALUE=DATE:20261102
-SUMMARY:[S7] Tirada larga con desnivel real
-DESCRIPTION:Fase: Construccion especifica. Duracion: 3h30. D+ aprox: 900-1000 m.\nFoco: Si es posible\, rampa corta y muy dura (15-20%) simulando km22\, y bajada tecnica similar\nSi solo hay un dia libre\, prioriza el domingo (mas margen de recuperacion tras el viernes). Si no hay salida posible: sustituir por brick de gym (stepmill/incline + step-downs excentricos + bici/remo) con la misma duracion objetivo.\nNota de seguridad: no replicar el 21.6% o el -19.6% real hasta semana 4-5.
+DTSTAMP:20261030T170000Z
+SEQUENCE:3
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:[S7] Salida de montana CAMINANDO (vuelta tras enfermedad)
+DESCRIPTION:Duracion: 3h (max 3h30). ~11-13 km\, D+ 650-850 m (max 900 m)\, D- max 900 m. Una subida continua de 400-550 m. Todo caminando\, tambien en llano y en bajada. Con bastones\, mochila de carrera y zapatillas de carrera.\nSi no hay montana (cinta; es mas facil que el terreno\, asi que D+ igual o mayor): 2h15\, ~9 km\, D+ ~880 m. 10 min calentar (0-4%)\, 4 x 25 min a 13% y 4\,0 km/h con 5 min en llano a 4\,5 km/h entre bloques\, 10 min enfriar\, FC <=146 lpm.\nSalir solo si: sin fiebre en 48 h\, sin tos de pecho ni dolores musculares generales\, FC de reposo matinal <=52 lpm. Si no\, marcha plana de 60-90 min o descanso.\nFC <=146 lpm en subida. Parar si hay mareo\, opresion en el pecho o rodilla >=3/10.\nNutricion: comida real\, 40-60 g/h. Pesar y anotar.\nMedir: subida continua mas larga (objetivo >=450 m/h)\, velocidad en llano (>=5 km/h) y min por km-esfuerzo (<=11). Despues: rodilla (0-10) a las 24 h y FC de reposo del domingo.
+END:VEVENT
+BEGIN:VEVENT
+UID:valldigna-2026-11-01-71@personal-coach
+DTSTAMP:20261030T170000Z
+SEQUENCE:2
+DTSTART;TZID=Europe/Madrid:20261101T180000
+DTEND;TZID=Europe/Madrid:20261101T183000
+SUMMARY:[S7] Descanso (paseo plano opcional)
+DESCRIPTION:Descanso tras la salida del sabado. Opcional: paseo plano de 30 min. Anotar rodilla (0-10) y FC de reposo.
 END:VEVENT
 BEGIN:VEVENT
 UID:valldigna-2026-11-02-50@personal-coach
-DTSTAMP:20260915T000000Z
+DTSTAMP:20261030T170000Z
+SEQUENCE:1
 DTSTART;TZID=Europe/Madrid:20261102T180000
 DTEND;TZID=Europe/Madrid:20261102T200000
 SUMMARY:[S8] Escalada (ocio)
-DESCRIPTION:Fase: Pico. Sesion de ocio\, complemento de bajo impacto. Sin cambios respecto al resto de semanas.
+DESCRIPTION:Fase: Pico. RPE <=6 mientras queden sintomas de la enfermedad. Sesion de ocio\, complemento de bajo impacto. Sin cambios respecto al resto de semanas.
 END:VEVENT
 BEGIN:VEVENT
 UID:valldigna-2026-11-03-51@personal-coach
-DTSTAMP:20260915T000000Z
+DTSTAMP:20261030T170000Z
+SEQUENCE:1
 DTSTART;TZID=Europe/Madrid:20261103T190000
 DTEND;TZID=Europe/Madrid:20261103T201500
-SUMMARY:[S8] Fuerza 1 - Pierna + excentrico
-DESCRIPTION:Fase: Pico. Objetivo: fuerza y potencia con poco volumen (~45 min\, menos agujetas) y tolerancia excentrica para km8/km26/km34.\nCalentamiento 5 min: puente de gluteo 1x12 + movilidad dinamica (balanceo de pierna\, zancada atras) 1 min por pierna\nDumbbell swing (mancuerna a dos manos): 4x6 -- velocidad maxima RPE 6-7\, descanso 90 s\nSentadilla con barra: 4x5 RPE 7-8 (~5% mas de carga si el RPE <= 8)\, descanso 2 min\nZancada bulgara: 3x6-8 por pierna RPE 7-8\nStep-down lento (cajon 60 cm + peso extra): 2x6-8 por pierna\, tempo bajada 4-5 seg\nNota fase: Prepara especificamente km8/km34 (-19%)
+SUMMARY:[S8] Fuerza 1 - Pierna + gluteo
+DESCRIPTION:Fase: Pico. Objetivo: fuerza de gluteo y pierna con poca carga de rodilla (~45 min). El fisio indica gluteo debil.\nCalentamiento 5 min: puente de gluteo 1x12 + abduccion con banda 1x15 por lado\nHip thrust: 4x6-8 RPE 7\, ~50 kg\, descanso 2 min\nSentadilla con barra: 3x5 RPE 7\, ~75 kg\, descanso 2 min\nZancada bulgara: 2x6 por pierna RPE 7\, 15-17\,5 kg\nStep-down lento (cajon 60 cm): 2x6 por pierna\, peso corporal\, tempo bajada 4 seg\, RPE <=7\nAbduccion de cadera (maquina o banda): 2x12-15 RPE 7\nParar si la rodilla llega a >=3/10.
 END:VEVENT
 BEGIN:VEVENT
 UID:valldigna-2026-11-04-52@personal-coach
-DTSTAMP:20260915T000000Z
+DTSTAMP:20261030T170000Z
+SEQUENCE:1
 DTSTART;TZID=Europe/Madrid:20261104T183000
 DTEND;TZID=Europe/Madrid:20261104T193000
 SUMMARY:[S8] Fuerza 2 - Torso
-DESCRIPTION:Fase: Pico. Empuje + salud de hombro; el core especifico se realiza lunes\, miercoles y viernes por la manana.\nPress banca o press inclinado con mancuernas: 4x8 RPE 7\nPress militar con mancuernas (de pie): 3x10 RPE 6-7\nRemo a una mano con mancuerna: 3x10 por lado\nFace pull (banda o polea): 3x15\nProgresion: sube peso/dificultad esta semana (progresion hasta semana 8\, pico)
+DESCRIPTION:Fase: Pico. Todo a RPE <=8 hasta que pasen los sintomas de la enfermedad. Empuje + salud de hombro; el core especifico se realiza lunes\, miercoles y viernes por la manana.\nPress banca o press inclinado con mancuernas: 4x8 RPE 7\nPress militar con mancuernas (de pie): 3x10 RPE 6-7\nRemo a una mano con mancuerna: 3x10 por lado\nFace pull (banda o polea): 3x15\nProgresion: sube peso/dificultad esta semana (progresion hasta semana 8\, pico)
 END:VEVENT
 BEGIN:VEVENT
 UID:valldigna-2026-11-04-53@personal-coach
-DTSTAMP:20260915T000000Z
+DTSTAMP:20261030T170000Z
+SEQUENCE:1
 DTSTART;TZID=Europe/Madrid:20261104T194500
-DTEND;TZID=Europe/Madrid:20261104T203000
-SUMMARY:[S8] Running 1 - Cinta/stepmill vertical
-DESCRIPTION:Fase: Pico. Duracion total: 40-45 min. Pendiente: Mixto.\nContenido: Bloques de 10 min a 12-15% + 2x3 min a 18-20%\nObjetivo: Simulacion directa de km 18-24\nSimula las subidas sostenidas del recorrido (km3-7 al 8-9.5%\, rampa km22 al 21.6%).\nHacer despues del bloque de fuerza de torso para no comprometer la tecnica de press/dominadas.
+DTEND;TZID=Europe/Madrid:20261104T204500
+SUMMARY:[S8] Cinta/stepmill vertical (marcha\, sin trote)
+DESCRIPTION:Fase: Pico. 50 min continuos\, pendiente 12-13%\, ~4\,0 km/h (~+450 m)\, FC <=150 lpm\; ultimos 5 min al 15-16% (final <=160 lpm).\nObjetivo: simula la subida sostenida del recorrido (km3-7 y km18-22) sin impacto de rodilla.\nHacer despues del bloque de fuerza de torso. Parar el bloque si la FC pasa de 160 lpm. Registrar pendiente\, velocidad\, duracion y RPE.
 END:VEVENT
 BEGIN:VEVENT
 UID:valldigna-2026-11-05-54@personal-coach
-DTSTAMP:20260915T000000Z
+DTSTAMP:20261030T170000Z
+SEQUENCE:1
 DTSTART;TZID=Europe/Madrid:20261105T190000
-DTEND;TZID=Europe/Madrid:20261105T195500
-SUMMARY:[S8] Running 2 - Rodaje llano ciudad
-DESCRIPTION:Fase: Pico. 45-50 min continuos\, ritmo 7:00-7:30 min/km\, RPE 4-5 (~6.5-7 km). Recuperacion activa entre el miercoles (vertical) y el viernes (fullbody).
+DTEND;TZID=Europe/Madrid:20261105T200000
+SUMMARY:[S8] Cinta Z2 con inclinacion (sustituye al rodaje)
+DESCRIPTION:Fase: Pico. 40-45 min a 8-10%\, ~4\,0-4\,5 km/h\, FC 130-146 lpm (Z2)\, RPE 4. Mas suave que la cinta del miercoles.\nAjusta la pendiente (+-1% cada 5 min) para mantener la FC\; no subas la velocidad. Maximo 10%. Si las piernas siguen cargadas del miercoles: 6-8% y 35 min. Sin trote.
 END:VEVENT
 BEGIN:VEVENT
 UID:valldigna-2026-11-06-55@personal-coach
-DTSTAMP:20260915T000000Z
+DTSTAMP:20261030T170000Z
+SEQUENCE:1
 DTSTART;TZID=Europe/Madrid:20261106T190000
 DTEND;TZID=Europe/Madrid:20261106T201500
-SUMMARY:[S8] Fuerza 3 - Fullbody + tobillo
-DESCRIPTION:Fase: Pico. Cierra la semana con patrones no trabajados el martes/miercoles: bisagra de cadera\, tiron vertical\, empuje ligero\, estabilidad.\nPeso muerto rumano (RDL) o hip thrust: 3x8-10\nDominadas (asistidas si hace falta): 3x6-8 o al fallo\nPress de pecho con mancuernas o fondos en paralelas: 3x10\nZancada caminando o step-up lateral: 3x10 por pierna\nEquilibrio a una pierna (suelo -> ojos cerrados): 3x30-45 seg por pierna\nBanda tobillo (inversion/eversion): 3x15 por lado\nElevacion de talon a una pierna: 3x15 por pierna\nProgresion: sube peso/dificultad esta semana (progresion hasta semana 8\, pico)
+SUMMARY:[S8] Fuerza 3 - Fullbody + gluteo + tobillo
+DESCRIPTION:Fase: Pico. Todo a RPE <=7. Si el simulacro es el sabado 7\, hacer esta sesion el jueves 5.\nPeso muerto rumano (RDL): 3x8 RPE 7\, ~55-60 kg\nDominadas (asistidas si hace falta): 3x6-8 o RPE <=8\nPress de pecho con mancuernas o fondos en paralelas: 3x10 RPE 6-7\nPuente de gluteo a una pierna: 3x8-10 por pierna RPE 7\nEquilibrio a una pierna (suelo -> ojos cerrados): 3x30-45 seg por pierna\nBanda tobillo (inversion/eversion): 3x15 por lado\nElevacion de talon a una pierna: 3x15 por pierna
 END:VEVENT
 BEGIN:VEVENT
 UID:valldigna-2026-11-08-56@personal-coach
-DTSTAMP:20260915T000000Z
+DTSTAMP:20261030T170000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
-SUMMARY:[S8] Tirada larga con desnivel real
-DESCRIPTION:Fase: Pico. Duracion: 4h (pico). D+ aprox: 1100-1200 m.\nFoco: Simulacro completo: subida larga + rampa dura + bajada tecnica + mochila + nutricion\nSi solo hay un dia libre\, prioriza el domingo (mas margen de recuperacion tras el viernes). Si no hay salida posible: sustituir por brick de gym (stepmill/incline + step-downs excentricos + bici/remo) con la misma duracion objetivo.\nNota de seguridad: no replicar el 21.6% o el -19.6% real hasta semana 4-5.
+SUMMARY:[S8] Simulacro CAMINANDO (pico)
+DESCRIPTION:Fase: Pico. Duracion: 4h30-5h. D+ 1100-1300 m\, D- max 1300 m. Todo caminando con bastones y mochila de carrera.\nIncluye subida larga\, rampa dura andando\, bajada tecnica con bastones\, nutricion de carrera (40-60 g/h) y frontal en los primeros 30-45 min. Paradas max 30 min.\nCompleto solo si: sin sintomas y FC de reposo <=50 lpm\; rodilla <=2/10 en las 24 h posteriores a la salida del 31 oct\; sin fatiga de mas de 48 h tras esa salida. Si no\, 3h30-4h y D+ 800-1000 m.\nSi solo es posible el sabado 7: mover Fullbody al jueves 5 y descansar el domingo.
 END:VEVENT
 BEGIN:VEVENT
 UID:valldigna-2026-11-09-57@personal-coach
@@ -460,11 +478,12 @@ DESCRIPTION:Fase: Afinado. Sesion de ocio\, complemento de bajo impacto. Sin cam
 END:VEVENT
 BEGIN:VEVENT
 UID:valldigna-2026-11-10-58@personal-coach
-DTSTAMP:20260915T000000Z
+DTSTAMP:20261030T170000Z
+SEQUENCE:1
 DTSTART;TZID=Europe/Madrid:20261110T190000
 DTEND;TZID=Europe/Madrid:20261110T201500
-SUMMARY:[S9] Fuerza 1 - Pierna + excentrico
-DESCRIPTION:Fase: Afinado. Objetivo: mantener fuerza y potencia con menos volumen\, sin agujetas nuevas.\nCalentamiento 5 min: puente de gluteo 1x12 + movilidad dinamica (balanceo de pierna\, zancada atras) 1 min por pierna\nDumbbell swing (mancuerna a dos manos): 3x6 -- velocidad maxima RPE 6-7\, descanso 90 s\nSentadilla con barra: 3x4 RPE 7\, descanso 2 min\nZancada bulgara: 2x6 por pierna RPE 7\nStep-down lento (cajon 60 cm): 1-2x6 por pierna\, mantener carga\, tempo bajada 4 seg\nNota fase: No acumular fatiga nueva
+SUMMARY:[S9] Fuerza 1 - Pierna + gluteo
+DESCRIPTION:Fase: Afinado. Objetivo: mantener fuerza de gluteo y pierna con menos volumen\, sin agujetas nuevas.\nCalentamiento 5 min: puente de gluteo 1x12 + abduccion con banda 1x15 por lado\nHip thrust: 3x6 RPE 7\nSentadilla con barra: 3x4 RPE 6-7\nZancada bulgara: 2x5 por pierna RPE 7\nStep-down lento (cajon 60 cm): 1x6 por pierna\, peso corporal\, tempo bajada 4 seg\nAbduccion de cadera (maquina o banda): 2x12\nNota fase: No acumular fatiga nueva
 END:VEVENT
 BEGIN:VEVENT
 UID:valldigna-2026-11-11-59@personal-coach
@@ -484,27 +503,30 @@ DESCRIPTION:Fase: Afinado. Duracion total: 30 min. Pendiente: Igual que semana 6
 END:VEVENT
 BEGIN:VEVENT
 UID:valldigna-2026-11-12-61@personal-coach
-DTSTAMP:20260915T000000Z
+DTSTAMP:20261030T170000Z
+SEQUENCE:1
 DTSTART;TZID=Europe/Madrid:20261112T190000
-DTEND;TZID=Europe/Madrid:20261112T195500
-SUMMARY:[S9] Running 2 - Rodaje llano ciudad
-DESCRIPTION:Fase: Afinado. 45-50 min continuos\, ritmo 7:00-7:30 min/km\, RPE 4-5 (~6.5-7 km). Recuperacion activa entre el miercoles (vertical) y el viernes (fullbody).
+DTEND;TZID=Europe/Madrid:20261112T195000
+SUMMARY:[S9] Cinta Z2 con inclinacion (sustituye al rodaje)
+DESCRIPTION:Fase: Afinado. 35-40 min a 8%\, ~4\,0-4\,5 km/h\, FC 130-145 lpm (Z2)\, RPE 4. Ajusta la pendiente\, no la velocidad. Sin trote.
 END:VEVENT
 BEGIN:VEVENT
 UID:valldigna-2026-11-13-62@personal-coach
-DTSTAMP:20260915T000000Z
+DTSTAMP:20261030T170000Z
+SEQUENCE:1
 DTSTART;TZID=Europe/Madrid:20261113T190000
 DTEND;TZID=Europe/Madrid:20261113T201500
-SUMMARY:[S9] Fuerza 3 - Fullbody + tobillo
-DESCRIPTION:Fase: Afinado. Cierra la semana con patrones no trabajados el martes/miercoles: bisagra de cadera\, tiron vertical\, empuje ligero\, estabilidad.\nPeso muerto rumano (RDL) o hip thrust: 3x8-10\nDominadas (asistidas si hace falta): 3x6-8 o al fallo\nPress de pecho con mancuernas o fondos en paralelas: 3x10\nZancada caminando o step-up lateral: 3x10 por pierna\nEquilibrio a una pierna (suelo -> ojos cerrados): 3x30-45 seg por pierna\nBanda tobillo (inversion/eversion): 3x15 por lado\nElevacion de talon a una pierna: 3x15 por pierna\nProgresion: reduce carga (fase de afinado/tapering\, semanas 9-10)
+SUMMARY:[S9] Fuerza 3 - Fullbody + gluteo + tobillo
+DESCRIPTION:Fase: Afinado. Todo a RPE <=7 y con menos carga.\nPeso muerto rumano (RDL): 3x8 RPE 7\nDominadas (asistidas si hace falta): 3x6-8 o RPE <=8\nPress de pecho con mancuernas o fondos en paralelas: 3x10\nPuente de gluteo a una pierna: 3x8-10 por pierna\nEquilibrio a una pierna (suelo -> ojos cerrados): 3x30-45 seg por pierna\nBanda tobillo (inversion/eversion): 3x15 por lado\nElevacion de talon a una pierna: 3x15 por pierna\nProgresion: reduce carga (fase de afinado/tapering\, semanas 9-10)
 END:VEVENT
 BEGIN:VEVENT
 UID:valldigna-2026-11-15-63@personal-coach
-DTSTAMP:20260915T000000Z
+DTSTAMP:20261030T170000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
-SUMMARY:[S9] Tirada larga con desnivel real
-DESCRIPTION:Fase: Afinado. Duracion: 3h. D+ aprox: 600-700 m.\nFoco: Bajando volumen\, mantener alguna bajada tecnica corta\nSi solo hay un dia libre\, prioriza el domingo (mas margen de recuperacion tras el viernes). Si no hay salida posible: sustituir por brick de gym (stepmill/incline + step-downs excentricos + bici/remo) con la misma duracion objetivo.\nNota de seguridad: no replicar el 21.6% o el -19.6% real hasta semana 4-5.
+SUMMARY:[S9] Salida de montana CAMINANDO (afinado)
+DESCRIPTION:Fase: Afinado. Duracion: 2h30-3h. D+ 600-700 m. Todo caminando con bastones.\nFoco: bajando volumen\, mantener alguna bajada tecnica corta con bastones.\nSi no hay salida posible: sustituir por cinta/stepmill vertical + bici suave con la misma duracion objetivo (sin step-downs pesados).
 END:VEVENT
 BEGIN:VEVENT
 UID:valldigna-2026-11-16-64@personal-coach
@@ -516,11 +538,12 @@ DESCRIPTION:Fase: Tapering. Sesion de ocio\, complemento de bajo impacto. Sin ca
 END:VEVENT
 BEGIN:VEVENT
 UID:valldigna-2026-11-17-65@personal-coach
-DTSTAMP:20260915T000000Z
+DTSTAMP:20261030T170000Z
+SEQUENCE:1
 DTSTART;TZID=Europe/Madrid:20261117T190000
 DTEND;TZID=Europe/Madrid:20261117T201500
-SUMMARY:[S10] Fuerza 1 - Pierna + excentrico
-DESCRIPTION:Fase: Tapering. Objetivo: mantenimiento neural en 25-30 min\, sin agujetas.\nCalentamiento 5 min: puente de gluteo 1x12 + movilidad dinamica (balanceo de pierna\, zancada atras) 1 min por pierna\nDumbbell swing (mancuerna a dos manos): 3x6 ligero\nSentadilla con barra: 3x4 RPE 6\nZancada bulgara: 2x5 por pierna ligera\nSin step-down pesado\nNota fase: Cero agujetas nuevas antes de carrera
+SUMMARY:[S10] Fuerza 1 - Pierna + gluteo
+DESCRIPTION:Fase: Tapering. Objetivo: mantenimiento neural en 25-30 min\, sin agujetas.\nCalentamiento 5 min: puente de gluteo 1x12 + abduccion con banda 1x15 por lado\nHip thrust: 2x6 ligero\nSentadilla con barra: 3x4 RPE 6\nZancada bulgara: 2x5 por pierna ligera\nSin step-down\nNota fase: Cero agujetas nuevas antes de carrera
 END:VEVENT
 BEGIN:VEVENT
 UID:valldigna-2026-11-18-66@personal-coach
@@ -540,11 +563,12 @@ DESCRIPTION:Fase: Tapering. Duracion total: 20 min. Pendiente: 8-10%.\nContenido
 END:VEVENT
 BEGIN:VEVENT
 UID:valldigna-2026-11-19-68@personal-coach
-DTSTAMP:20260915T000000Z
+DTSTAMP:20261030T170000Z
+SEQUENCE:1
 DTSTART;TZID=Europe/Madrid:20261119T190000
 DTEND;TZID=Europe/Madrid:20261119T193500
-SUMMARY:[S10] Running 2 - Shakeout suave (taper)
-DESCRIPTION:Fase: Tapering. 25-30 min muy suave\, ritmo comodo\, RPE 3. Solo activacion antes de la carrera del sabado.
+SUMMARY:[S10] Cinta suave (taper)
+DESCRIPTION:Fase: Tapering. 20-25 min a 5-8%\, FC <=135 lpm\, RPE 3. Sin trote. Solo activacion antes de la carrera del sabado.
 END:VEVENT
 BEGIN:VEVENT
 UID:valldigna-2026-11-20-69@personal-coach
