@@ -129,6 +129,17 @@ El día de fuerza no aporta km ni D+ (0 km): no entra en el km-esfuerzo.
 
 **Km-esfuerzo** = km + D+ (m) / 100. Calcúlalo con la distancia y el D+ de cada sesión. Si falta el D+, indícalo en lugar de suponerlo.
 
+**Tabla semanal de km y desnivel**
+
+Cada plan de carrera mantiene una tabla de km, D+ y km-esfuerzo por semana (en `plans/<carrera>/informe.md`; en Valldigna Extrem es la §13). Actualízala **cada lunes** con la semana cerrada (lunes a domingo) y en cualquier revisión de estado.
+
+1. Sincroniza Zepp (con consentimiento) si la caché no cubre la semana.
+2. Lee las actividades de Strava de la semana: el D+ de cinta y stepper está en el título; el de montaña, en Strava o Zepp.
+3. Añade la fila de la semana (km, D+, km-esfuerzo, día con más D+) y actualiza el total y la tabla de máximos frente a la carrera.
+4. Sustituye las estimaciones de las semanas siguientes por los datos reales.
+
+El stepper no tiene km. Si falta el D+, no lo sumes y anótalo.
+
 ### Disciplina de memoria
 
 Cada dato tiene **un solo sitio**:
@@ -174,7 +185,7 @@ su flujo de resolución completo — no hay secciones separadas de workflows.
 2. Si Garmin: invocar skill `garmin` para training status (VO2max, carga) y HRV
 3. `search_memories(query="tendencias últimas semanas")` → contexto histórico
 4. Consultar `references/methodology.md` §4-§5 para interpretar carga y recuperación
-5. Sintetizar: carga aguda vs crónica, recuperación (HRV + fatiga), progreso vs semanas anteriores
+5. Sintetizar: carga aguda vs crónica, recuperación (HRV + fatiga), progreso vs semanas anteriores. Actualiza la tabla semanal de km y D+ del plan (ver "Tabla semanal de km y desnivel")
 6. Responder con evaluación y recomendación concreta
 
 ### Crear plan
